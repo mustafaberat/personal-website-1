@@ -1,0 +1,91 @@
+@import "./formalize.css";
+@import "./normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Exo:300,400&display=swap");
+
+:root {
+  --black: #0a0f21;
+  --grey: #9ea2ad;
+  --blue: #3a8ee8;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  background-color: var(--black);
+}
+
+.container {
+  height: 80vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 700px;
+  position: relative;
+  padding: 2.875rem 1.125rem;
+}
+
+.name-surname {
+  font-weight: 340;
+  color: var(--blue);
+  font-size: 2.8rem;
+}
+
+.my-title {
+  font-size: 0.9rem;
+  color: var(--grey);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-media-links {
+  /* background-color: yellow; */
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.social-media-common {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+  margin: 6px;
+}
+
+.social-media-linkedin {
+  background-image: url("../img/linkedin.png");
+}
+
+.social-media-codepen {
+  background-image: url("../img/codepen.png");
+}
+
+.social-media-github {
+  background-image: url("../img/cat.png");
+}
+
+@media (max-width: 450px) {
+  .name-surname {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .name-surname {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .name-surname {
+    font-size: 2rem;
+  }
+}
