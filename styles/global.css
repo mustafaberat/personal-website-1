@@ -1,0 +1,10 @@
+body {
+  font-family: "Exo", sans-serif;
+  background-color: var(--black);
+}
+
+.container {
+  max-width: var(--maxWidth);
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,68 @@
+@media (max-width: 500px) {
+  .header-buttons a {
+    display: none;
+  }
+  .header-more-icon {
+    display: block;
+  }
+  .name-surname {
+    font-size: 2.2rem;
+  }
+  .my-title {
+    font-size: 0.85rem;
+  }
+
+  .social-media-common {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .name-surname {
+    font-size: 2rem;
+  }
+  .my-title {
+    font-size: 0.8rem;
+  }
+
+  .social-media-common {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .name-surname {
+    font-size: 1.8rem;
+  }
+  .my-title {
+    font-size: 0.7rem;
+  }
+
+  .social-media-common {
+    width: 15px;
+    height: 15px;
+    border: 0px;
+  }
+}
+
+@media (max-width: 330px) {
+  .name-surname {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 300px) {
+  .name-surname {
+    /* white-space: nowrap; */
+  }
+  .social-media-common {
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: inherit;
+    border: 1px solid var(--blue);
+    padding: 15px 30px;
+  }
+}

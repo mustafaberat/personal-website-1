@@ -1,0 +1,15 @@
+.name-surname {
+  color: var(--blue);
+  font-size: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.my-title {
+  font-size: 0.9rem;
+  color: var(--grey);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

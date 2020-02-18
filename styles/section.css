@@ -1,0 +1,9 @@
+.section {
+  text-align: center;
+}
+
+.section .container {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin-top: var(--fingerSize);
+}
