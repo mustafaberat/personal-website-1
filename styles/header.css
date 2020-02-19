@@ -6,6 +6,8 @@
 
 .header .container {
   display: flex;
+  position: relative;
+  align-items: center;
   padding-top: var(--gutter);
   padding-bottom: var(--gutter);
 }
@@ -17,8 +19,8 @@
 }
 
 .header-buttons {
-  margin-left: auto;
   display: flex;
+  margin-left: auto;
   align-items: center;
 }
 
@@ -29,16 +31,17 @@
   padding-right: var(--gutter);
   display: inline-flex;
   align-items: center;
+  margin-left: auto;
   height: var(--fingerSize);
 }
 
 .header-button:hover {
-  color: var(--black);
+  color: var(--white);
   background-color: var(--blue);
   transition: 0.2s;
 }
 
-.header-button:nth-child(1) {
+.header-button-aboutMe {
   margin-right: 10px;
 }
 
@@ -46,6 +49,7 @@
   height: var(--fingerSize);
   width: var(--fingerSize);
   background-color: transparent;
+  margin-left: auto;
   display: none;
 }
 

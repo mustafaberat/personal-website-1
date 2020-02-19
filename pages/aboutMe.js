@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import HeaderComp from "../components/headerComponent"
 
 const Home = () => (
     <div>
@@ -10,25 +11,7 @@ const Home = () => (
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
                 integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
         </Head>
-        <header className="header">
-            <div className="container">
-                <a className="header-logo" href="#">
-                    <img src="/m.png" alt="MLOGO"></img>
-                </a>
-                <div className="header-buttons">
-                    <Link href="/#">
-                        <a className="header-button-aboutMe header-button">About Me</a>
-                    </Link>
-                    <Link href="/#">
-                        <a className="header-button-aboutMe header-button">Projects</a>
-                    </Link>
-                    <button className="header-more-icon" type="button">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-        </header>
-
+        <HeaderComp></HeaderComp>
         <section className="section">
             <div className="container">
                 <h1 className="name-surname">HEY WELCOME!</h1>

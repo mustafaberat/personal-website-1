@@ -1,7 +1,34 @@
 @media (max-width: 500px) {
-  .header-buttons a {
+  .header-buttons {
     display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.2);
+    border: 1px solid var(--grey);
+    border-radius: var(--borderRadius);
+    background-color: var(--blue);
   }
+
+  .header-buttons a {
+    margin-left: unset;
+    margin-right: unset;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: var(--fingerSize);
+    margin-top: 10px;
+    min-width: 75px;
+    background-color: var(--red);
+    color: var(--white);
+  }
+
   .header-more-icon {
     display: block;
   }
@@ -29,6 +56,7 @@
   .social-media-common {
     width: 25px;
     height: 25px;
+    border-radius: inherit;
   }
 }
 
@@ -41,9 +69,14 @@
   }
 
   .social-media-common {
-    width: 15px;
-    height: 15px;
-    border: 0px;
+    border-radius: inherit;
+    border: 1px solid var(--blue);
+    padding: 12px;
+  }
+
+  .social-media-links {
+    padding-left: 11%;
+    padding-right: 11%;
   }
 }
 
@@ -54,15 +87,17 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 280px) {
   .name-surname {
     /* white-space: nowrap; */
   }
   .social-media-common {
-    padding-left: 20%;
-    padding-right: 20%;
     border-radius: inherit;
     border: 1px solid var(--blue);
-    padding: 15px 30px;
+    padding: 12px;
+  }
+  .social-media-links {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }

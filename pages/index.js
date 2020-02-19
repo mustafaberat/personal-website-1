@@ -1,33 +1,20 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import HeaderComp from '../components/headerComponent'
 
 const Home = () => (
   <div>
     <Head>
       <title>Mustafa Berat ARU - Kişisel Web Sitesi</title>
       <link rel="icon" href="/m.png" href="/#" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+      <meta name="robots" content="mustafaberat,mustafaberatt,mustafaberataru"></meta>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
     </Head>
-    <header className="header">
-      <div className="container">
-        <a className="header-logo" href="#">
-          <img src="/m.png" alt="MLOGO"></img>
-        </a>
-        <div className="header-buttons">
-          <Link href="/aboutMe">
-            <a className="header-button-aboutMe header-button">About Me</a>
-          </Link>
-          <Link href="/#">
-            <a className="header-button-aboutMe header-button">Projects</a>
-          </Link>
-          <button className="header-more-icon" type="button">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
-    </header>
+
+    <HeaderComp></HeaderComp>
 
     <section className="section">
       <div className="container">
