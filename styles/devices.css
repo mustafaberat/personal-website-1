@@ -88,9 +88,6 @@
 }
 
 @media (max-width: 280px) {
-  .name-surname {
-    /* white-space: nowrap; */
-  }
   .social-media-common {
     border-radius: inherit;
     border: 1px solid var(--blue);

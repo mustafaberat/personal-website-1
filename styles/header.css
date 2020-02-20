@@ -51,6 +51,7 @@
   background-color: transparent;
   margin-left: auto;
   display: none;
+  cursor: pointer;
 }
 
 .header-more-icon i {
@@ -59,4 +60,9 @@
   align-items: center;
   font-size: xx-large;
   color: var(--blue);
+}
+
+.header-show-buttons {
+  display: flex;
+  background-color: purple;
 }

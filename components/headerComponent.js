@@ -14,8 +14,8 @@ export default function HeaderComp() {
                         <a className="header-button-projects header-button">Projects</a>
                     </Link>
                 </div>
-                <button className="header-more-icon" type="button">
-                    <i class="fas fa-bars"></i>
+                <button className="header-more-icon" type="button" id="header-more-icon">
+                    <i className="fas fa-bars"></i>
                 </button>
             </div>
         </header>
