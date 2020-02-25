@@ -7,3 +7,7 @@
   padding-right: var(--gutter);
   margin-top: var(--fingerSize);
 }
+
+.about-social-media-area {
+  margin-bottom: 80px;
+}

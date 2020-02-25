@@ -40,29 +40,3 @@
   background-color: var(--blue);
   transition: 0.2s;
 }
-
-.header-button-aboutMe {
-  margin-right: 10px;
-}
-
-.header-more-icon {
-  height: var(--fingerSize);
-  width: var(--fingerSize);
-  background-color: transparent;
-  margin-left: auto;
-  display: none;
-  cursor: pointer;
-}
-
-.header-more-icon i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: xx-large;
-  color: var(--blue);
-}
-
-.header-show-buttons {
-  display: flex;
-  background-color: purple;
-}
