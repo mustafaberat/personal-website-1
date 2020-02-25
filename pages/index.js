@@ -7,11 +7,11 @@ const Home = () => (
   <div>
     <Head>
       <title>Mustafa Berat ARU - Personal Website</title>
-      <link rel="icon" href="/m.png" href="http://mustafaberat.now.sh/" />
+      <link rel="icon" href="/m.png" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
       <meta name="robots" content="mustafaberat,mustafaberatt,mustafaberataru"></meta>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
     </Head>
 
     <HeaderComp></HeaderComp>

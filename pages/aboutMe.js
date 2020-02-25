@@ -8,9 +8,9 @@ const About = () => (
     <div>
         <Head>
             <title>Mustafa Berat ARU - Kişisel Web Sitesi</title>
-            <link rel="icon" href="/m.png" href="/#" />
+            <link rel="icon" href="/m.png" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
+                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
         </Head>
 
         <header className="header">
