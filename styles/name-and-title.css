@@ -13,3 +13,12 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
+.about-my-title {
+  line-height: 1.4;
+  text-transform: none;
+}
+
+.about-spans {
+  color: var(--yellow);
+}
