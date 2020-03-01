@@ -3,7 +3,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 // import HeaderComp from "../components/headerComponent"
 var _2016 = "I started the English preparatory class in 2016 and that year, I chased a lot of tourists to practice on the street.";
-var _2017_2020 = "In my department, i was like the dream.";
+// var _2017_2020 = "In my department, i was like the dream.";
+var _2017_2020 = "I will continue...";
 
 
 const About = () => (
@@ -34,7 +35,7 @@ const About = () => (
                 <p className="my-title about-my-title">I am <span className="about-spans">Mustafa Berat ARU</span></p>
                 <p className="my-title about-my-title">{_2016}</p>
                 <p className="my-title about-my-title">{_2017_2020}</p>
-                <p className="my-title about-my-title"><span className="about-spans">I would say that i am a high potential ship with no sail</span></p>
+                {/* <p className="my-title about-my-title"><span className="about-spans">I would say that i am a high potential ship with no sail</span></p> */}
                 <article className="social-media-links about-social-media-area">
                     <Link href="https://www.instagram.com/mustafaberatt/">
                         <a className="social-media-instagram social-media-common" target="blank">
