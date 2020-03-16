@@ -41,6 +41,10 @@ const Home = () => (
             <a className="social-media-linkedin social-media-common" target="blank">
               <i className="fab fa-linkedin-in"></i>
             </a></Link>
+          <Link href="https://medium.com/@mustafaberat">
+            <a className="social-media-medium social-media-common" target="blank">
+              <i class="fab fa-medium-m"></i>
+            </a></Link>
         </article>
       </div>
     </section>

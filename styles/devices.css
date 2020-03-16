@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 516px) {
   .header-buttons a {
     padding-left: 10px;
     padding-right: 10px;
@@ -17,18 +17,21 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .name-surname {
     font-size: 2rem;
   }
   .my-title {
     font-size: 0.8rem;
   }
-
   .social-media-common {
-    width: 25px;
-    height: 25px;
     border-radius: inherit;
+    border: 1px solid var(--blue);
+    padding: 12px;
+  }
+  .social-media-links {
+    padding-left: 9%;
+    padding-right: 9%;
   }
 }
 
