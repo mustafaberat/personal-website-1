@@ -1,5 +1,5 @@
 import Link from 'next/link'
-export default function HeaderComp() {
+export default function HeaderComp({ text, path }) {
     return (
         <header className="header">
             <div className="container">
@@ -7,8 +7,8 @@ export default function HeaderComp() {
                     <img src="/m.png" alt="MLOGO"></img>
                 </a>
                 <div className="header-buttons">
-                    <Link href="/aboutMe">
-                        <a className="header-button-aboutMe header-button">About Me</a>
+                    <Link href={path}>
+                        <a className="header-button-aboutMe header-button">{text}</a>
                     </Link>
                 </div>
             </div>
