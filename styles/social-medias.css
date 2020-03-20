@@ -1,6 +1,6 @@
 .social-media-links {
-  margin-top: var(--fingerSize);
-  height: 60px;
+  margin: var(--fingerSize) 0;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

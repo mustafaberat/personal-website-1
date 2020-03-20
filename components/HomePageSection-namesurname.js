@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SocialMedia from '../components/SocialMedia'
+import MailForHomePage from '../components/MailForHomePage'
 
 const HomePageSection = () => {
     return (
@@ -9,6 +10,7 @@ const HomePageSection = () => {
                 <h1 className="name-surname">MUSTAFA BERAT ARU</h1>
                 <p className="my-title">Software Engineering Student</p>
                 <SocialMedia />
+                <MailForHomePage />
             </div>
         </section>
     );
