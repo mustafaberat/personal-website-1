@@ -8,6 +8,7 @@
   margin-top: var(--fingerSize);
 }
 
-.about-social-media-area {
-  margin-bottom: 80px;
+.mailforhomepage {
+  color: var(--grey);
+  font-weight: lighter;
 }
