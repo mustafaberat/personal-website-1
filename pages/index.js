@@ -3,20 +3,13 @@ import React from 'react'
 
 import MyHead from '../components/MyHead'
 import HeaderComp from '../components/headerComponent'
-import SocialMedia from '../components/SocialMedia'
+import HomePageSection from '../components/HomePageSection-namesurname'
 
 const Home = () => (
   <div>
     <MyHead />
     <HeaderComp text='About Me' path='/aboutMe' />
-
-    <section className="section">
-      <div className="container">
-        <h1 className="name-surname">MUSTAFA BERAT ARU</h1>
-        <p className="my-title">Software Engineering Student</p>
-        <SocialMedia />
-      </div>
-    </section>
+    <HomePageSection />
   </div>
 )
 
