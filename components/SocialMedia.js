@@ -1,0 +1,35 @@
+import React from 'react';
+import Link from 'next/link'
+
+const SocialMedia = () => {
+    return (
+        <article className="social-media-links about-social-media-area">
+            <Link href="https://www.instagram.com/mustafaberatt/">
+                <a className="social-media-instagram social-media-common" target="blank">
+                    <i className="fab fa-instagram"></i>
+                </a></Link>
+            <Link href="https://github.com/mustafaberat/">
+                <a className="social-media-github social-media-common" target="blank">
+                    <i className="fab fa-github-alt"></i>
+                </a></Link>
+            <Link href="https://www.facebook.com/mustafaberatt">
+                <a className="social-media-facebook social-media-common" target="blank">
+                    <i className="fab fa-facebook-f"></i>
+                </a></Link>
+            <Link href="https://codepen.io/mustafaberatt">
+                <a className="social-media-codepen social-media-common" target="blank">
+                    <i className="fab fa-codepen"></i>
+                </a></Link>
+            <Link href="https://www.linkedin.com/in/mustafaberatt/">
+                <a className="social-media-linkedin social-media-common" target="blank">
+                    <i className="fab fa-linkedin-in"></i>
+                </a></Link>
+            <Link href="https://medium.com/@mustafaberat">
+                <a className="social-media-medium social-media-common" target="blank">
+                    <i className="fab fa-medium-m"></i>
+                </a></Link>
+        </article>
+    );
+}
+
+export default SocialMedia

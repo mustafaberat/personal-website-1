@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'next/link'
 
 import MyHead from '../components/MyHead'
 import HeaderComp from "../components/headerComponent"
+import SocialMedia from '../components/SocialMedia'
 const MY_URL = 'http://mustafaberat.now.sh/'
 var _2016 = "I started the English preparatory class in 2016 and that year, I chased a lot of tourists to practice on the street.";
 var _2017 = "The first year of my department, i was like in a dream because i have wanted to analyze algorithms before start coding. End of the year i decided to make an internship without any idea about the field work however i supposed that I did everything enough. I think the idea of getting my first intership was an awesome decision because I had the chance to observe what I didnt learn yet.";
@@ -24,32 +24,7 @@ const About = () => (
                 <p className="my-title about-my-title">{_2018}</p>
                 <p className="my-title about-my-title">{_2019} <span className="about-spans">My next goal is to work and study at the same time at the end of 2020</span></p>
                 {/* <p className="my-title about-my-title"><span className="about-spans">I would say that i am a high potential ship with no sail</span></p> */}
-                <article className="social-media-links about-social-media-area">
-                    <Link href="https://www.instagram.com/mustafaberatt/">
-                        <a className="social-media-instagram social-media-common" target="blank">
-                            <i className="fab fa-instagram"></i>
-                        </a></Link>
-                    <Link href="https://github.com/mustafaberat/">
-                        <a className="social-media-github social-media-common" target="blank">
-                            <i className="fab fa-github-alt"></i>
-                        </a></Link>
-                    <Link href="https://www.facebook.com/mustafaberatt">
-                        <a className="social-media-facebook social-media-common" target="blank">
-                            <i className="fab fa-facebook-f"></i>
-                        </a></Link>
-                    <Link href="https://codepen.io/mustafaberatt">
-                        <a className="social-media-codepen social-media-common" target="blank">
-                            <i className="fab fa-codepen"></i>
-                        </a></Link>
-                    <Link href="https://www.linkedin.com/in/mustafaberatt/">
-                        <a className="social-media-linkedin social-media-common" target="blank">
-                            <i className="fab fa-linkedin-in"></i>
-                        </a></Link>
-                    <Link href="https://medium.com/@mustafaberat">
-                        <a className="social-media-medium social-media-common" target="blank">
-                            <i className="fab fa-medium-m"></i>
-                        </a></Link>
-                </article>
+                <SocialMedia />
             </div>
         </section>
     </div>
