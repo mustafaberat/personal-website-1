@@ -7,7 +7,9 @@ export default function HeaderComp({ text, path = "/" }) {
                 {/* Logo must send to index so do not change [/=index] */}
                 <Link href="/">
                     <a className="header-logo">
+                        {/* <img src="/m-logo.png" alt="MLOGO"></img> */}
                         <img src="/m-darkBlue.png" alt="MLOGO"></img>
+
                     </a>
                 </Link>
                 <div className="header-buttons">
