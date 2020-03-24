@@ -12,5 +12,5 @@ body {
 /* To select text by cursor */
 *::selection {
   background-color: var(--blue);
-  color: white;
+  color: var(--white);
 }

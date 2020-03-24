@@ -10,17 +10,21 @@
   .my-title {
     font-size: 0.85rem;
   }
-
   .social-media-common {
     width: 30px;
     height: 30px;
   }
-
   .things {
     grid-gap: 40px 0px;
   }
   .thingsCard {
     height: auto;
+  }
+  .technologies-title {
+    font-size: 20px;
+  }
+  .technologies-point {
+    font-size: 0.85rem;
   }
 }
 
@@ -40,6 +44,12 @@
     padding-left: 9%;
     padding-right: 9%;
   }
+  .technologies-title {
+    font-size: 18px;
+  }
+  .technologies-point {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 360px) {
@@ -52,20 +62,23 @@
   .mailforhomepage {
     font-size: 0.84rem;
   }
-
   .social-media-common {
     border-radius: inherit;
     border: 1px solid var(--blue);
     padding: 12px;
   }
-
   .social-media-links {
     padding-left: 11%;
     padding-right: 11%;
   }
-
   .things {
     font-size: 0.9rem;
+  }
+  .technologies-title {
+    font-size: 14px;
+  }
+  .technologies-point {
+    font-size: 0.6rem;
   }
 }
 
