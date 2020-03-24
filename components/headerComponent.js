@@ -14,7 +14,7 @@ export default function HeaderComp({ text, path = "/" }) {
                 </Link>
                 <div className="header-buttons">
                     <Link href={path}>
-                        <a className="header-button-aboutMe header-button">{text}</a>
+                        <a className="header-button">{text}</a>
                     </Link>
                 </div>
             </div>

@@ -1,0 +1,14 @@
+.things {
+  color: white;
+  background-color: tomato;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px 60px;
+}
+
+.thingsCard {
+  padding: 110px;
+  text-align: center;
+  cursor: pointer;
+  background-color: teal;
+}
