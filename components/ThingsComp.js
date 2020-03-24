@@ -1,9 +1,11 @@
 import React from 'react';
 
 import ThingsCard from '../components/ThingsCardComp'
+import MyHead from '../components/MyHead'
 const Things = () => {
     return (
         <div className="container">
+            <MyHead />
             <h1 className="name-surname">Things</h1>
             <div className="things">
                 <ThingsCard text='Personal Website' imageSource='img/output.PNG' path='/' />
