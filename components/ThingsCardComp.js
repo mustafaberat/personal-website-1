@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 
-function ThingsCard({ text, imageSource, path = '#' }) {
+function ThingsCard({ text, imageSource, path = '' }) {
     // export default function ThingsCard({ text, path = "/" }) {
     return (
         <div className="thingsCard">
