@@ -7,7 +7,7 @@ import AboutPageSection from "../components/AboutMePageSection-history"
 const About = () => (
     <div>
         <MyHead />
-        <HeaderComp text='Home Page' />
+        <HeaderComp text='Things' path='/things' />
         <AboutPageSection />
 
     </div>

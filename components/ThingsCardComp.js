@@ -1,15 +1,13 @@
 import React from 'react';
 import Link from 'next/link'
 
-function ThingsCard({ text, path = '#' }) {
+function ThingsCard({ text, imageSource, path = '#' }) {
     // export default function ThingsCard({ text, path = "/" }) {
     return (
-        <a
-            className="thingsCard"
-            href={path}
-        >
-            {text}
-        </a>
+        <div className="thingsCard">
+            <a href={path}>{text}</a>
+            <img src={imageSource} alt="PHOTO" />
+        </div>
     )
 }
 
