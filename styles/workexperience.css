@@ -1,27 +1,32 @@
 .workexperience-container {
   padding-left: var(--gutter);
   padding-right: var(--gutter);
-  margin-top: var(--fingerSize);
+  margin-top: var(--gutter);
   color: var(--grey);
 }
 .workexperience-title {
   color: var(--white);
-  margin-bottom: var(--gutter);
+  margin-top: var(--fingerSize);
   font-size: 1.6rem;
 }
 .work-title {
   font-size: 1.4rem;
   color: var(--yellow);
+  margin-bottom: 5px;
 }
 .work-subtitles {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   font-size: 1rem;
-  margin-bottom: var(--gutter);
+  margin-bottom: 5px;
 }
 .work-companay {
   font-size: 1.2rem;
-  color: var(--yellow);
+  color: var(--blue);
+}
+.work-dateandlocation {
+  margin-left: auto;
+  white-space: nowrap;
 }
 .work-location,
 .work-date,
@@ -30,4 +35,8 @@
 }
 .work-date {
   margin-left: auto;
+}
+.work-location {
+  display: flex;
+  justify-content: flex-end;
 }

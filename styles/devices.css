@@ -23,7 +23,15 @@
   .technologies-title,
   .workexperience-title,
   .work-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+  .work-companay {
+    font-size: 1rem;
+  }
+  .work-location,
+  .work-date,
+  .work-details {
+    font-size: 0.9rem;
   }
 }
 
@@ -52,12 +60,12 @@
     font-size: 1.2rem;
   }
   .work-companay {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .work-location,
   .work-date,
   .work-details {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -92,19 +100,12 @@
     font-size: 0.8rem;
   }
   .work-companay {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .work-location,
   .work-date,
   .work-details {
     font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 330px) {
-  .name-surname {
-    padding-left: 20%;
-    padding-right: 20%;
   }
 }
 
@@ -117,5 +118,21 @@
   .social-media-links {
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .work-companay {
+    font-size: 0.7rem;
+  }
+  .work-location,
+  .work-date,
+  .work-details {
+    font-size: 0.6rem;
+  }
+}
+
+/* SPECIFIC */
+@media (max-width: 330px) {
+  .name-surname {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
