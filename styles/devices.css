@@ -21,10 +21,7 @@
     height: auto;
   }
   .technologies-title {
-    font-size: 20px;
-  }
-  .technologies-point {
-    font-size: 0.85rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -45,10 +42,7 @@
     padding-right: 9%;
   }
   .technologies-title {
-    font-size: 18px;
-  }
-  .technologies-point {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -73,13 +67,9 @@
   }
   .things {
     font-size: 0.9rem;
-    grid-template-columns: auto;
   }
   .technologies-title {
-    font-size: 14px;
-  }
-  .technologies-point {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 }
 
@@ -87,9 +77,6 @@
   .name-surname {
     padding-left: 20%;
     padding-right: 20%;
-  }
-  .things {
-    font-size: 0.6rem;
   }
 }
 
