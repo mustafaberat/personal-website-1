@@ -1,12 +1,12 @@
 .technologies-title {
   color: var(--white);
-  margin-bottom: var(--fingerSize);
+  margin-bottom: var(--gutter);
   margin-left: var(--gutter);
 }
 
 .technologies-container {
   display: grid;
-  grid-template-columns: 20% 70%;
+  grid-template-columns: 20% 66%;
   text-align: center;
   align-items: center;
   margin-left: var(--gutter);

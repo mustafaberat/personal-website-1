@@ -73,6 +73,7 @@
   }
   .things {
     font-size: 0.9rem;
+    grid-template-columns: auto;
   }
   .technologies-title {
     font-size: 14px;
