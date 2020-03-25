@@ -29,6 +29,7 @@
 .work-dateandlocation {
   margin-left: auto;
   white-space: nowrap;
+  padding-left: var(--halfgutter);
 }
 .work-location,
 .work-date,
