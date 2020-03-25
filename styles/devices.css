@@ -20,7 +20,9 @@
   .thingsCard {
     height: auto;
   }
-  .technologies-title {
+  .technologies-title,
+  .workexperience-title,
+  .work-title {
     font-size: 1.4rem;
   }
 }
@@ -41,8 +43,21 @@
     padding-left: 9%;
     padding-right: 9%;
   }
-  .technologies-title {
+  .technologies-point {
+    font-size: 0.9rem;
+  }
+  .technologies-title,
+  .workexperience-title,
+  .work-title {
     font-size: 1.2rem;
+  }
+  .work-companay {
+    font-size: 1rem;
+  }
+  .work-location,
+  .work-date,
+  .work-details {
+    font-size: 0.9rem;
   }
 }
 
@@ -68,8 +83,21 @@
   .things {
     font-size: 0.9rem;
   }
-  .technologies-title {
+  .technologies-title,
+  .workexperience-title,
+  .work-title {
     font-size: 1rem;
+  }
+  .technologies-point {
+    font-size: 0.8rem;
+  }
+  .work-companay {
+    font-size: 0.9rem;
+  }
+  .work-location,
+  .work-date,
+  .work-details {
+    font-size: 0.7rem;
   }
 }
 

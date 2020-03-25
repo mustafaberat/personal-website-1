@@ -1,0 +1,33 @@
+.workexperience-container {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin-top: var(--fingerSize);
+  color: var(--grey);
+}
+.workexperience-title {
+  color: var(--white);
+  margin-bottom: var(--gutter);
+  font-size: 1.6rem;
+}
+.work-title {
+  font-size: 1.4rem;
+  color: var(--yellow);
+}
+.work-subtitles {
+  display: flex;
+  align-items: baseline;
+  font-size: 1rem;
+  margin-bottom: var(--gutter);
+}
+.work-companay {
+  font-size: 1.2rem;
+  color: var(--yellow);
+}
+.work-location,
+.work-date,
+.work-details {
+  font-size: 1rem;
+}
+.work-date {
+  margin-left: auto;
+}
