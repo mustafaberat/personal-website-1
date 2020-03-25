@@ -37,7 +37,7 @@ const WorkExperience = () => {
                     <ul>
                         <li>Back end & Testing: Java - Spring Framework</li>
                         <li>Front end: JavaScript - React - React Native</li>
-                        <li>Database: PostgreSQL, DBeaver and Postman</li>
+                        <li>Database: PostgreSQL - DBeaver - Postman</li>
                     </ul>
                 </p>
             </section>
@@ -47,7 +47,7 @@ const WorkExperience = () => {
                 <div className="work-subtitles">
                     <h3 className="work-companay">IZU Career Center</h3>
                     <div className="work-dateandlocation">
-                        <h3 className="work-date">10/0917 - 07/06/19</h3>
+                        <h3 className="work-date">10/09/17 - 07/06/19</h3>
                         <h3 className="work-location">Istanbul (Turkey)</h3>
                     </div>
                 </div>

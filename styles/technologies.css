@@ -1,15 +1,17 @@
-.technologies-title {
-  color: var(--white);
-  margin-bottom: var(--gutter);
-  margin-left: var(--gutter);
-  font-size: 1.6rem;
-}
-
 .technologies-container {
   text-align: center;
   align-items: center;
+  margin-top: var(--gutter);
   padding-left: var(--gutter);
   padding-right: var(--gutter);
+}
+
+.technologies-title {
+  color: var(--white);
+  font-size: 1.6rem;
+  border-bottom: 1px solid var(--grey);
+  padding-bottom: 4px;
+  display: flex;
 }
 
 .technologies-point {
@@ -24,7 +26,7 @@
 
 .technologies-lvl {
   display: flex;
-  margin-bottom: var(--gutter);
+  margin-bottom: var(--halfgutter);
   height: 14px;
   width: 100%;
   background-color: var(--grey);
@@ -54,4 +56,8 @@
   width: 25%;
   color: var(--blue);
   background-color: var(--blue);
+}
+
+.mb-education {
+  margin-bottom: var(--fingerSize);
 }

@@ -8,6 +8,8 @@
   color: var(--white);
   margin-top: var(--fingerSize);
   font-size: 1.6rem;
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 4px;
 }
 .work-title {
   font-size: 1.4rem;

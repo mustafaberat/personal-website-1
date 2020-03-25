@@ -4,8 +4,8 @@ const Technologies = () => {
     return (
         <div className="container">
             <h1 className="name-surname">Resume</h1>
-            <h1 className="technologies-title">Technologies</h1>
             <div className="technologies-container">
+                <h1 className="technologies-title">Technologies</h1>
                 <div className="technologies-point">HTML5 / CSS3 / SCSS</div>
                 <div className="technologies-lvl">
                     <div className="technologies-lvl-in100"></div>

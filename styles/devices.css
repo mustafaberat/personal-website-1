@@ -1,7 +1,7 @@
 @media (max-width: 516px) {
   .header-buttons a {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: var(--halfgutter);
+    padding-right: var(--halfgutter);
     font-size: 0.9rem;
   }
   .name-surname {
