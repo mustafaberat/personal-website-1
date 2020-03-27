@@ -30,7 +30,6 @@
   padding-left: var(--gutter);
   padding-right: var(--gutter);
   padding-bottom: 4px;
-  border: 1px solid var(--);
   display: inline-flex;
   align-items: center;
   margin-left: auto;

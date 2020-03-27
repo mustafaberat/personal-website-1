@@ -13,16 +13,18 @@ class SidebarComp extends React.Component {
                 <button className="sidebar-menu-btn"
                     onClick={() => {
                         let element = document.getElementById("header-buttons")
-                        let element2 = document.getElementById("sidebariconid")
+                        let sidebaricon = document.getElementById("sidebariconid")
                         if (this.state.openStatues === false) {
                             element.style.display = "flex";
-                            element2.classList.add("fa-times")
-                            element2.classList.remove("fa-bars")
+
+                            sidebaricon.classList.add("fa-times")
+                            sidebaricon.classList.remove("fa-bars")
                             this.state.openStatues = true
                         } else if (this.state.openStatues === true) {
                             element.style.display = "none";
-                            element2.classList.add("fa-bars")
-                            element2.classList.remove("fa-times")
+
+                            sidebaricon.classList.add("fa-bars")
+                            sidebaricon.classList.remove("fa-times")
                             this.state.openStatues = false
                         }
                     }}>
