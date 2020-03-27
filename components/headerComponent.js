@@ -21,7 +21,7 @@ export default function HeaderComp() {
                     <Link href="/things">
                         <a className="header-button">Things</a>
                     </Link>
-                    <Link href="/Resume">
+                    <Link href="/resume">
                         <a className="header-button">Resume</a>
                     </Link>
                 </div>

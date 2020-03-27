@@ -17,6 +17,12 @@
   .technologies-point {
     font-size: 0.9rem;
   }
+  .things {
+    grid-template-columns: auto;
+  }
+  .thingsCard {
+    height: 150px;
+  }
   .technologies-title,
   .workexperience-title,
   .work-title {
@@ -78,9 +84,6 @@
   .social-media-links {
     padding-left: 11%;
     padding-right: 11%;
-  }
-  .things {
-    font-size: 0.9rem;
   }
   .technologies-title,
   .workexperience-title,
