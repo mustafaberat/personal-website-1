@@ -1,9 +1,7 @@
-
-
 html {
   box-sizing: border-box;
+  overflow: hidden;
 }
-
 
 a {
   text-decoration: none;
@@ -13,24 +11,47 @@ img {
   vertical-align: middle;
 }
 
-blockquote, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre, fieldset, ul, ol, menu, form {
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre,
+fieldset,
+ul,
+ol,
+menu,
+form {
   margin: 0;
 }
 
-button, fieldset, iframe {
+button,
+fieldset,
+iframe {
   border: 0;
 }
 
-fieldset, ul, ol, button, menu {
+fieldset,
+ul,
+ol,
+button,
+menu {
   padding: 0;
 }
 
-ol, ul {
- list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
 textarea {
-  resize: vertical;  
+  resize: vertical;
 }
 
 table {

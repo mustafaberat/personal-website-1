@@ -15,13 +15,15 @@ class SidebarComp extends React.Component {
                         let element = document.getElementById("header-buttons")
                         let sidebaricon = document.getElementById("sidebariconid")
                         if (this.state.openStatues === false) {
-                            element.style.display = "flex";
+                            element.style.opacity = 1;
+                            element.style.transform = "translate(0)";
 
                             sidebaricon.classList.add("fa-times")
                             sidebaricon.classList.remove("fa-bars")
                             this.state.openStatues = true
                         } else if (this.state.openStatues === true) {
-                            element.style.display = "none";
+                            element.style.transform = "translate(100%)";
+                            element.style.opacity = 0;
 
                             sidebaricon.classList.add("fa-bars")
                             sidebaricon.classList.remove("fa-times")
