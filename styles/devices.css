@@ -1,41 +1,4 @@
 @media (max-width: 516px) {
-  .header-buttons a {
-    padding-left: var(--halfgutter);
-    padding-right: var(--halfgutter);
-    font-size: 0.9rem;
-  }
-  .name-surname {
-    font-size: 2.2rem;
-  }
-  .my-title {
-    font-size: 0.85rem;
-  }
-  .social-media-common {
-    width: 30px;
-    height: 30px;
-  }
-  .things {
-    grid-gap: 40px 0px;
-  }
-  .thingsCard {
-    height: auto;
-  }
-  .technologies-title,
-  .workexperience-title,
-  .work-title {
-    font-size: 1.3rem;
-  }
-  .work-companay {
-    font-size: 1rem;
-  }
-  .work-location,
-  .work-date,
-  .work-details {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 450px) {
   .name-surname {
     font-size: 2rem;
   }
@@ -67,46 +30,6 @@
   .work-details {
     font-size: 0.8rem;
   }
-}
-
-@media (max-width: 360px) {
-  .name-surname {
-    font-size: 1.8rem;
-  }
-  .my-title {
-    font-size: 0.75rem;
-  }
-  .mailforhomepage {
-    font-size: 0.84rem;
-  }
-  .social-media-common {
-    border-radius: inherit;
-    border: 1px solid var(--blue);
-    padding: 12px;
-  }
-  .social-media-links {
-    padding-left: 11%;
-    padding-right: 11%;
-  }
-  .things {
-    font-size: 0.9rem;
-  }
-  .technologies-title,
-  .workexperience-title,
-  .work-title {
-    font-size: 1rem;
-  }
-  .technologies-point {
-    font-size: 0.8rem;
-  }
-  .work-companay {
-    font-size: 0.8rem;
-  }
-  .work-location,
-  .work-date,
-  .work-details {
-    font-size: 0.7rem;
-  }
 
   /* SIDE BAR */
   .sidebardiv {
@@ -135,6 +58,48 @@
   }
 }
 
+@media (max-width: 360px) {
+  .name-surname {
+    font-size: 1.8rem;
+  }
+  .my-title {
+    font-size: 0.75rem;
+  }
+  .mailforhomepage {
+    font-size: 0.84rem;
+  }
+  .social-media-common {
+    border-radius: inherit;
+    border: 1px solid var(--blue);
+    padding: 12px;
+    height: 30px;
+    width: 30px;
+  }
+  .social-media-links {
+    padding-left: 11%;
+    padding-right: 11%;
+  }
+  .things {
+    font-size: 0.9rem;
+  }
+  .technologies-title,
+  .workexperience-title,
+  .work-title {
+    font-size: 1rem;
+  }
+  .technologies-point {
+    font-size: 0.8rem;
+  }
+  .work-companay {
+    font-size: 0.8rem;
+  }
+  .work-location,
+  .work-date,
+  .work-details {
+    font-size: 0.7rem;
+  }
+}
+
 @media (max-width: 280px) {
   .social-media-common {
     border-radius: inherit;
@@ -156,13 +121,13 @@
 }
 
 /* SPECIFIC */
-@media (max-width: 330px) {
+@media (max-width: 325px) {
   .name-surname {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 33px;
+    padding-right: 33px;
   }
 }
-@media (min-width: 361px) {
+@media (min-width: 517px) {
   .header-buttons {
     display: flex !important;
   }

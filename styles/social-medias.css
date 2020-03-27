@@ -39,3 +39,7 @@
 .social-media-common:hover.social-media-common i {
   color: var(--white);
 }
+
+.df {
+  display: flex;
+}

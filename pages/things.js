@@ -6,7 +6,7 @@ import Things from '../components/ThingsComp'
 const things = () => {
     return (
         <div>
-            <HeaderComp text='About Me' path='/aboutMe' />
+            <HeaderComp />
             <Things />
         </div>
     );

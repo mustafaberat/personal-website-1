@@ -6,7 +6,7 @@ import HomePageSection from '../components/HomePageSection-namesurname'
 
 const Home = () => (
   <div>
-    <HeaderComp text='About Me' path='/aboutMe' />
+    <HeaderComp />
     <HomePageSection />
   </div>
 )

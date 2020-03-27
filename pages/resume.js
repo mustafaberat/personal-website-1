@@ -9,7 +9,7 @@ import Education from '../components/resumeComps/Education'
 const Resume = () => {
     return (
         <div>
-            <HeaderComp text='About Me' path='/aboutMe' />
+            <HeaderComp />
             <Technologies />
             <WorkExperience />
             <Education />

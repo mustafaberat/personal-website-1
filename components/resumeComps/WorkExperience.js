@@ -34,11 +34,9 @@ const WorkExperience = () => {
                     database.
                 </p>
                 <p className="work-details">
-                    <ul>
-                        <li>Back end & Testing: Java - Spring Framework</li>
-                        <li>Front end: JavaScript - React - React Native</li>
-                        <li>Database: PostgreSQL - DBeaver - Postman</li>
-                    </ul>
+                    <label>Back end & Testing: Java - Spring Framework</label>
+                    <label>Front end: JavaScript - React - React Native</label>
+                    <label>Database: PostgreSQL - DBeaver - Postman</label>
                 </p>
             </section>
 
