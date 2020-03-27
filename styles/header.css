@@ -40,3 +40,10 @@
   background-color: var(--blue);
   transition: 0.2s;
 }
+
+.df {
+  display: flex;
+}
+.dn {
+  display: none;
+}

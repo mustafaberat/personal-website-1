@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import MyHead from './MyHead'
+import SidebarComp from './SidebarComp'
 
 export default function HeaderComp({ text, path = "/" }) {
     return (
@@ -14,11 +15,12 @@ export default function HeaderComp({ text, path = "/" }) {
 
                     </a>
                 </Link>
-                <div className="header-buttons">
+                <div id="header-buttons" className="header-buttons dn">
                     <Link href={path}>
                         <a className="header-button">{text}</a>
                     </Link>
                 </div>
+                <SidebarComp />
             </div>
         </header>
     )

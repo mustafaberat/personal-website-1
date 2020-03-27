@@ -107,6 +107,31 @@
   .work-details {
     font-size: 0.7rem;
   }
+
+  /* SIDE BAR */
+  .sidebardiv {
+    display: flex;
+  }
+  .header-buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: var(--blue);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px var(--black);
+    z-index: 10;
+  }
+  .header-button {
+    color: var(--white);
+    display: flex;
+    width: -webkit-fill-available;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 280px) {
