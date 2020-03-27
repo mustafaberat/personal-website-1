@@ -14,12 +14,10 @@ class SidebarComp extends React.Component {
                     onClick={() => {
                         let element = document.getElementById("header-buttons")
                         if (this.state.openStatues === false) {
-                            element.classList.remove("dn");
-                            element.classList.add("df");
+                            element.style.display = "flex";
                             this.state.openStatues = true
                         } else if (this.state.openStatues === true) {
-                            element.classList.remove("df");
-                            element.classList.add("dn");
+                            element.style.display = "none";
                             this.state.openStatues = false
                         }
                     }}>

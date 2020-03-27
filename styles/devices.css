@@ -113,6 +113,7 @@
     display: flex;
   }
   .header-buttons {
+    display: none;
     position: absolute;
     left: 0;
     right: 0;
@@ -159,5 +160,10 @@
   .name-surname {
     padding-left: 20%;
     padding-right: 20%;
+  }
+}
+@media (min-width: 361px) {
+  .header-buttons {
+    display: flex !important;
   }
 }
