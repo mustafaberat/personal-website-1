@@ -11,18 +11,17 @@ export default function HeaderComp() {
                 <Link href="/">
                     <a className="header-logo">
                         <img src="/m-darkBlue.png" alt="MLOGO"></img>
-
                     </a>
                 </Link>
                 <div id="header-buttons" className="header-buttons">
                     <Link href="/about">
                         <a className="header-button">About</a>
                     </Link>
-                    <Link href="/things">
-                        <a className="header-button">Things</a>
-                    </Link>
                     <Link href="/resume">
                         <a className="header-button">Resume</a>
+                    </Link>
+                    <Link href="/things">
+                        <a className="header-button">Things</a>
                     </Link>
                 </div>
                 <SidebarComp />
