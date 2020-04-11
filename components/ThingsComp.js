@@ -13,6 +13,10 @@ const Things = () => {
                     imageSource='https://raw.githubusercontent.com/mustafaberat/covid19-website/master/src/screenshot.PNG'
                     path='https://coronavirus-covid19.now.sh/' />
                 <ThingsCard
+                    text='Binarygap JS'
+                    imageSource='https://raw.githubusercontent.com/mustafaberat/binarygap-js/master/src/assets/screenshot.PNG'
+                    path='https://github.com/mustafaberat/binarygap-js' />
+                <ThingsCard
                     text='Minesweeper'
                     imageSource='https://raw.githubusercontent.com/mustafaberat/MayinTarlasi-Game-by-Vue/master/src/output/screenshot.PNG'
                     path='https://mayin-tarlasi.now.sh/' />
