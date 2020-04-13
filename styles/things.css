@@ -47,3 +47,8 @@
   filter: grayscale(80%);
   opacity: 0.15;
 }
+
+.things-titlediv {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
