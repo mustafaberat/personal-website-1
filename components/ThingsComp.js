@@ -12,6 +12,10 @@ const Things = () => {
             </div>
             <div className="things">
                 <ThingsCard
+                    text='TYT20 Counter'
+                    imageSource='https://raw.githubusercontent.com/mustafaberat/tyt-sayac-2020/master/assert/screenshot.PNG'
+                    path='https://tyt20-sayac.now.sh/' />
+                <ThingsCard
                     text='Covid19'
                     imageSource='https://raw.githubusercontent.com/mustafaberat/covid19-website/master/src/screenshot.PNG'
                     path='https://coronavirus-covid19.now.sh/' />
