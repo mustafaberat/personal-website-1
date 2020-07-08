@@ -5,16 +5,33 @@ const WorkExperience = () => {
         <div className="container">
             <section className="workexperience-container">
                 <h1 className="workexperience-title">Work Experience</h1>
-                <h3 className="work-title">Instructor</h3>
+            </section>
+
+            <section className="workexperience-container">
+                <h3 className="work-title">Object Oriented Software Engineer (Intern)</h3>
                 <div className="work-subtitles">
-                    <h3 className="work-companay">Turkish Technology Team</h3>
+                    <h3 className="work-companay">Baykar Defense</h3>
                     <div className="work-dateandlocation">
-                        <h3 className="work-date">06/02/19 - 08/06/20</h3>
+                        <h3 className="work-date">13/07/20 - 12/09/20</h3>
                         <h3 className="work-location">Istanbul (Turkey)</h3>
                     </div>
                 </div>
                 <p className="work-details">
-                    Every Sunday, i give some lessons in which every education takes 4 months. Energy Technology, Internet of Things, Artificial Intelligence, Mobile Application and Programming
+
+                </p>
+            </section>
+
+            <section className="workexperience-container">
+                <h3 className="work-title">Instructor</h3>
+                <div className="work-subtitles">
+                    <h3 className="work-companay">Turkish Technology Team</h3>
+                    <div className="work-dateandlocation">
+                        <h3 className="work-date">06/02/19 - Present</h3>
+                        <h3 className="work-location">Istanbul (Turkey)</h3>
+                    </div>
+                </div>
+                <p className="work-details">
+                    Every Sunday, i give some lessons in which every education takes more than 4 months. Energy Technology, Internet of Things, Artificial Intelligence, Mobile Application and Programming
                 </p>
             </section>
 
@@ -35,8 +52,8 @@ const WorkExperience = () => {
                 </p>
                 <p className="work-details">
                     <label>Back end & Testing: Java - Spring Framework</label>
-                    <label>Front end: JavaScript - React - React Native</label>
-                    <label>Database: PostgreSQL - DBeaver - Postman</label>
+                    <label>, Front end: JavaScript - React - React Native</label>
+                    <label>, Database: PostgreSQL - DBeaver - Postman</label>
                 </p>
             </section>
 

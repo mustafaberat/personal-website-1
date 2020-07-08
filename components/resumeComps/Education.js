@@ -5,7 +5,7 @@ const Education = () => {
         <div className="container">
             <section className="workexperience-container mb-education">
                 <h1 className="workexperience-title">Education</h1>
-                <h3 className="work-title">Software Engineering (3rd year)</h3>
+                <h3 className="work-title">Software Engineering (4th year)</h3>
                 <div className="work-subtitles">
                     <h3 className="work-companay">Istanbul Sabahattin Zaim University</h3>
                     <div className="work-dateandlocation">
