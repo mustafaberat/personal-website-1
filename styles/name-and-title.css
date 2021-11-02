@@ -14,6 +14,10 @@
   margin-bottom: 20px;
 }
 
+.my-title-company{
+  color: var(--orange);
+}
+
 .about-my-title {
   line-height: 1.4;
   text-transform: none;

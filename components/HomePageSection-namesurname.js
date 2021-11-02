@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import SocialMedia from '../components/SocialMedia'
-import MailForHomePage from '../components/MailForHomePage'
+import SocialMedia from "../components/SocialMedia";
+import MailForHomePage from "../components/MailForHomePage";
 
 const HomePageSection = () => {
-    return (
-        <section className="section">
-            <div className="container">
-                <h1 className="name-surname">MUSTAFA BERAT ARU</h1>
-                <p className="my-title">Software Engineering Student</p>
-                <SocialMedia />
-                <MailForHomePage />
-            </div>
-        </section>
-    );
-}
+  return (
+    <section className="section">
+      <div className="container">
+        <h1 className="name-surname">MUSTAFA BERAT ARU</h1>
+        <p className="my-title">Software Engineer at <span className="my-title-company">Trendyol</span></p>
+        <SocialMedia />
+        <MailForHomePage />
+      </div>
+    </section>
+  );
+};
 
-export default HomePageSection
+export default HomePageSection;
