@@ -9,7 +9,7 @@ const Education = () => {
         <div className="work-subtitles">
           <h3 className="work-companay">Istanbul Sabahattin Zaim University</h3>
           <div className="work-dateandlocation">
-            <h3 className="work-date">16/08/2016 - 02/08/2021</h3>
+            <h3 className="work-date">16/08/2016 - 09/07/2021</h3>
             <h3 className="work-location">Istanbul (Turkey)</h3>
           </div>
         </div>
