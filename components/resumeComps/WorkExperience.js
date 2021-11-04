@@ -12,7 +12,7 @@ const WorkExperience = () => {
         <div className="work-subtitles">
           <h3 className="work-companay">Trendyol Group</h3>
           <div className="work-dateandlocation">
-            <h3 className="work-date">16/09/21 - Present</h3>
+            <h3 className="work-date">14/09/21 - Present</h3>
             <h3 className="work-location">Istanbul (Turkey)</h3>
           </div>
         </div>
@@ -39,7 +39,7 @@ const WorkExperience = () => {
         <div className="work-subtitles">
           <h3 className="work-companay">Baykar Defense</h3>
           <div className="work-dateandlocation">
-            <h3 className="work-date">13/07/20 - 12/09/21</h3>
+            <h3 className="work-date">13/07/20 - 09/06/21</h3>
             <h3 className="work-location">Istanbul (Turkey)</h3>
           </div>
         </div>
