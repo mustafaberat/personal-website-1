@@ -71,18 +71,27 @@ class PasswordGenerator extends React.Component {
         newPassword +=
           numbers[
             (numbers.indexOf(char) + NEXT_NUMBER_COUNTER) % numbers.length
+          ] +
+          specials[
+            (numbers.indexOf(char) + NEXT_NUMBER_COUNTER) % specials.length
           ];
       } else if (char.match(/[a-z]/i)) {
         //LETTER
         newPassword +=
           letters[
             (letters.indexOf(char) + NEXT_NUMBER_COUNTER) % letters.length
+          ] +
+          specials[
+            (letters.indexOf(char) + NEXT_NUMBER_COUNTER) % specials.length
           ];
       } else {
         //SPECIAL
         newPassword +=
           specials[
             (specials.indexOf(char) + NEXT_NUMBER_COUNTER) % specials.length
+          ] +
+          numbers[
+            (specials.indexOf(char) + NEXT_NUMBER_COUNTER) % numbers.length
           ];
       }
 
@@ -100,6 +109,7 @@ class PasswordGenerator extends React.Component {
             className="password-input"
             type="text"
             id="password"
+            type="password"
             name="password"
             onChange={this.setPassword}
           />
