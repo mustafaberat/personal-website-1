@@ -115,7 +115,7 @@ class PasswordGenerator extends React.Component {
           />
         </div>
         <div className="passwordResultDiv">
-          <p className="work-details" value={this.state.input}>
+          <p className="passwordP" value={this.state.input}>
             {this.state.input}
           </p>
         </div>
