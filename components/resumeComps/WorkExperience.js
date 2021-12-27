@@ -8,7 +8,7 @@ const WorkExperience = () => {
       </section>
 
       <section className="workexperience-container">
-        <h3 className="work-title">Software Technologies</h3>
+        <h3 className="work-title">Back End Developer</h3>
         <div className="work-subtitles">
           <h3 className="work-companay">Trendyol Group</h3>
           <div className="work-dateandlocation">
