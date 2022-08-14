@@ -34,7 +34,7 @@ const Things = () => {
         />
         <ThingsCard
           text="Personal Website"
-          imageSource="https://raw.githubusercontent.com/mustafaberat/covid19-website/master/src/screenshot.PNG"
+          imageSource="img/output.PNG"
           path="/"
         />
         <div style={{ marginBottom: "20px" }}></div>
