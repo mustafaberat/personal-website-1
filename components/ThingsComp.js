@@ -28,12 +28,12 @@ const Things = () => {
           path="https://github.com/mustafaberat/binarygap-js"
         />
         <ThingsCard
-          text="Personal Website"
+          text="Calculate Average"
           imageSource="img/calculateaverage.PNG"
           path="https://calculateaverage.vercel.app/"
         />
         <ThingsCard
-          text="Calculate Average"
+          text="Personal Website"
           imageSource="https://raw.githubusercontent.com/mustafaberat/covid19-website/master/src/screenshot.PNG"
           path="/"
         />
