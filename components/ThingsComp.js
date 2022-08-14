@@ -29,7 +29,12 @@ const Things = () => {
         />
         <ThingsCard
           text="Personal Website"
-          imageSource="img/output.PNG"
+          imageSource="img/calculateaverage.PNG"
+          path="https://calculateaverage.vercel.app/"
+        />
+        <ThingsCard
+          text="Calculate Average"
+          imageSource="https://raw.githubusercontent.com/mustafaberat/covid19-website/master/src/screenshot.PNG"
           path="/"
         />
         <div style={{ marginBottom: "20px" }}></div>
