@@ -63,6 +63,11 @@ const Things = () => {
           imageSource="https://raw.githubusercontent.com/mustafaberat/piano/master/public/screenshot.PNG"
           path="https://piano-beta.now.sh/"
         />
+        <ThingsCard
+          text="Hangi Ay"
+          imageSource="https://raw.githubusercontent.com/mustafaberat/hangi-ay/main/public/output.png"
+          path="https://hangi-ay.vercel.app/"
+        />
         <div style={{ marginBottom: "20px" }}></div>
       </div>
       <div className="things-titlediv">
