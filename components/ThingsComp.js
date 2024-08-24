@@ -68,6 +68,11 @@ const Things = () => {
           imageSource="https://raw.githubusercontent.com/mustafaberat/hangi-ay/main/public/output.png"
           path="https://hangi-ay.vercel.app/"
         />
+        <ThingsCard
+          text="WP Inst Msg"
+          imageSource="https://raw.githubusercontent.com/mustafaberat/wp-instant-msg/main/public/output.png"
+          path="https://wp-instant-msg.vercel.app/"
+        />
         <div style={{ marginBottom: "20px" }}></div>
       </div>
       <div className="things-titlediv">
