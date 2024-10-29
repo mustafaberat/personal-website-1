@@ -8,20 +8,18 @@ export default function HeaderComp() {
       <MyHead />
       <div className="container">
         {/* Logo must send to index so do not change [/=index] */}
-        <Link href="/">
-          <a className="header-logo">
-            <img src="/m-darkBlue.png" alt="MLOGO"></img>
-          </a>
+        <Link href="/" className="header-logo">
+          <img src="/m-darkBlue.png" alt="MLOGO" />
         </Link>
         <div id="header-buttons" className="header-buttons">
-          <Link href="/about">
-            <a className="header-button">About</a>
+          <Link href="/about" className="header-button">
+            About
           </Link>
-          <Link href="/resume">
-            <a className="header-button">Resume</a>
+          <Link href="/resume" className="header-button">
+            Resume
           </Link>
-          <Link href="/things">
-            <a className="header-button">Things</a>
+          <Link href="/things" className="header-button">
+            Things
           </Link>
         </div>
         <SidebarComp />

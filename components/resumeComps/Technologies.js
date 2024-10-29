@@ -1,42 +1,38 @@
 import React from "react";
 
+const technologiesData = [
+  {
+    name: "Golang / C# / NodeJs / Java / Python",
+    levelClass: "technologies-lvl-in100",
+  },
+  {
+    name: "Elastic / Cassandra / MongoDB / PostgreSQL",
+    levelClass: "technologies-lvl-in100",
+  },
+  {
+    name: "Kafka / RabbitMQ / K8S",
+    levelClass: "technologies-lvl-in90",
+  },
+  {
+    name: "CSS / React / Vue",
+    levelClass: "technologies-lvl-in75",
+  },
+];
+
 const Technologies = () => {
   return (
     <div className="container">
       <h1 className="name-surname">Resume</h1>
       <div className="technologies-container">
         <h1 className="technologies-title">Technologies</h1>
-
-        <div className="technologies-point">Java / C# / Golang</div>
-
-        <div className="technologies-lvl">
-          <div className="technologies-lvl-in100"></div>
-        </div>
-
-        <div className="technologies-point">
-          Elastic / Cassandra / PostgreSQL
-        </div>
-
-        <div className="technologies-lvl">
-          <div className="technologies-lvl-in100"></div>
-        </div>
-
-        <div className="technologies-point">Nifi / Kafka / K8S</div>
-
-        <div className="technologies-lvl">
-          <div className="technologies-lvl-in80"></div>
-        </div>
-
-        <div className="technologies-point">Python / C++ / PHP</div>
-
-        <div className="technologies-lvl">
-          <div className="technologies-lvl-in75"></div>
-        </div>
-
-        <div className="technologies-point">JS / React / Vue</div>
-        <div className="technologies-lvl">
-          <div className="technologies-lvl-in75"></div>
-        </div>
+        {technologiesData.map((tech, index) => (
+          <div key={index}>
+            <div className="technologies-point">{tech.name}</div>
+            <div className="technologies-lvl">
+              <div className={tech.levelClass}></div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
