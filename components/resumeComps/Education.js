@@ -11,8 +11,8 @@ const educationData = [
     achievements: [
       {
         text: "Top scoring student in the department",
-        icon: <FaMedal />
-      }
+        icon: <FaMedal />,
+      },
     ],
   },
 ];
@@ -40,7 +40,9 @@ const Education = () => {
             {education.achievements &&
               education.achievements.map((achievement, i) => (
                 <span key={i} className={styles.techTag}>
-                  <span className={styles.achievementIcon}>{achievement.icon}</span>
+                  <span className={styles.achievementIcon}>
+                    {achievement.icon}
+                  </span>
                   {achievement.text}
                 </span>
               ))}

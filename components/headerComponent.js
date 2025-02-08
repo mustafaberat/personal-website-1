@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MyHead from "./MyHead";
 import SidebarComp from "./SidebarComp";
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function HeaderComp() {
   return (

@@ -1,135 +1,135 @@
 .container {
-    color: var(--white);
+  color: var(--white);
 }
 
 .title {
-    margin-bottom: 1.5rem;
-    color: var(--white);
-    border-bottom: 2px solid var(--white);
-    padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+  border-bottom: 2px solid var(--white);
+  padding-bottom: 0.5rem;
 }
 
 .card {
-    background: var(--black);
-    padding: 1.5rem;
-    border-radius: var(--borderRadius);
-    border: 1px solid var(--white);
-    margin-bottom: 1rem;
+  background: var(--black);
+  padding: 1.5rem;
+  border-radius: var(--borderRadius);
+  border: 1px solid var(--white);
+  margin-bottom: 1rem;
 }
 
 .cardHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
 }
 
 .schoolInfo {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .logoContainer {
-    width: 40px;
-    height: 40px;
-    border-radius: var(--borderRadius);
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--borderRadius);
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .logo {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .degree {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.2rem;
-    color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: var(--white);
 }
 
 .school {
-    font-size: 0.9rem;
-    color: var(--grey);
+  font-size: 0.9rem;
+  color: var(--grey);
 }
 
 .meta {
-    font-size: 0.9rem;
-    color: var(--grey);
+  font-size: 0.9rem;
+  color: var(--grey);
 }
 
 .date {
-    display: block;
-    margin-bottom: 0.2rem;
+  display: block;
+  margin-bottom: 0.2rem;
 }
 
 .location {
-    display: block;
+  display: block;
 }
 
 .details {
-    color: var(--white);
-    line-height: 1.5;
+  color: var(--white);
+  line-height: 1.5;
 }
 
 .achievement {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: var(--white);
-    color: var(--white);
-    padding: 0.3rem 0.8rem;
-    border-radius: var(--borderRadius);
-    font-size: 0.9rem;
-    margin-top: 1rem;
-    transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--white);
+  color: var(--white);
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--borderRadius);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  transition: all 0.2s ease;
 }
 
 .achievement:hover {
-    background: var(--blue);
-    transform: translateY(-2px);
+  background: var(--blue);
+  transform: translateY(-2px);
 }
 
 .achievementIcon {
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
 }
 
 .techTag {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: var(--blue);
-    color: var(--white);
-    padding: 0.3rem 0.8rem;
-    border-radius: var(--borderRadius);
-    font-size: 0.85rem;
-    transition: all 0.2s ease;
-    cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--blue);
+  color: var(--white);
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--borderRadius);
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .techTag:hover {
-    transform: translateY(-2px);
-    background: var(--yellow);
-    color: var(--black);
+  transform: translateY(-2px);
+  background: var(--yellow);
+  color: var(--black);
 }
 
 .achievementsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 767px) {
-    .cardHeader {
-        flex-direction: column;
-        gap: 1rem;
-    }
+  .cardHeader {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .meta {
-        text-align: left;
-    }
-} 
+  .meta {
+    text-align: left;
+  }
+}

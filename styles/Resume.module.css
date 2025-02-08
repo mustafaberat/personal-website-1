@@ -1,57 +1,59 @@
 .container {
-    min-height: 100vh;
-    background-color: var(--black);
+  min-height: 100vh;
+  background-color: var(--black);
 }
 
 .main {
-    padding: 2rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .content {
-    background-color: var(--black);
-    border-radius: var(--borderRadius);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
+  background-color: var(--black);
+  border-radius: var(--borderRadius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--white);
-    margin-bottom: 2rem;
-    text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .grid {
-    display: grid;
-    gap: 2rem;
+  display: grid;
+  gap: 2rem;
 }
 
 .section {
-    background-color: var(--black);
-    border-radius: var(--borderRadius);
+  background-color: var(--black);
+  border-radius: var(--borderRadius);
 }
 
-.workExperience, .education {
-    font-size: 1.1rem;
+.workExperience,
+.education {
+  font-size: 1.1rem;
 }
 
-.workExperience h3, .education h2 {
-    font-size: 1rem;
+.workExperience h3,
+.education h2 {
+  font-size: 1rem;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
-    .main {
-        padding: 1rem;
-    }
+  .main {
+    padding: 1rem;
+  }
 
-    .content {
-        padding: 1rem;
-    }
+  .content {
+    padding: 1rem;
+  }
 
-    .title {
-        font-size: 2rem;
-    }
-} 
+  .title {
+    font-size: 2rem;
+  }
+}
