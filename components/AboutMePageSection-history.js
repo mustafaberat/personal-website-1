@@ -2,9 +2,11 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/About.module.css";
 
-import SocialMedia from "../components/SocialMedia";
-
 const timelineData = [
+  {
+    year: "2025",
+    content: "At Getir, with a new team, we not only continued processes but also completed the rewriting of the system. The new architectures to be implemented were chosen and applied according to the needs. This unique experience significantly improved my abilities in understanding why we do what we do, the improvement processes after something is done, and presenting this knowledge. While going through these stages, I learned new things in areas I thought I already knew, as I delved deeper into the topics. This journey was not only about my technical experiences but also a year where I played a significant role in the dynamics of the team, applying what I had learned in social relationships. Instead of shared responsibilities, the expression of managing all processes of a task from start to finish with fully assigned responsibilities was something I fully completed."
+  },
   {
     year: "2024",
     content: "Over the past remarkable two years and eight months, I've transitioned between two diverse teams, each offering unique perspectives on business, approaches, and technologies. When I joined Trendyol, it was well-established, almost at its final iteration, which presented clear boundaries. I often found myself yearning to delve into its earlier versions to understand the evolution and rationale behind its current state. This curiosity led me to pursue a new opportunity with a dynamic, growing company where I could leverage my skills and experiences effectively. Now, I'm part of Getir, a company well known for its agile teams, relentless pace, and boundary-breaking challenges. I thrive in this environment and find it incredibly engaging."
