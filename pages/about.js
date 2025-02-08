@@ -1,13 +1,12 @@
-import React from 'react'
-
-import HeaderComp from "../components/headerComponent"
-import AboutPageSection from "../components/AboutMePageSection-history"
-
+import React from "react";
+import HeaderComp from "../components/headerComponent";
+import AboutPageSection from "../components/AboutMePageSection-history";
+import styles from "../styles/About.module.css";
 const About = () => (
-    <div>
-        <HeaderComp />
-        <AboutPageSection />
+  <div className={styles.container}>
+    <HeaderComp />
+    <AboutPageSection />
+  </div>
+);
 
-    </div>
-)
-export default About
+export default About;
