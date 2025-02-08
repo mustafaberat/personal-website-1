@@ -175,7 +175,6 @@
 
   .sectionTitle {
     font-size: 1.75rem;
-    margin: 1.5rem 0;
   }
 
   .name {
@@ -185,8 +184,11 @@
   .title {
     font-size: 1.25rem;
   }
-
+  .timelineSection {
+    padding: 0px;
+  }
   .timelineSection::before {
+    padding: 0px;
     left: 25px;
   }
 
@@ -226,7 +228,6 @@
 
   .sectionTitle {
     font-size: 1.5rem;
-    margin: 1rem 0;
   }
 
   .profileImage {
@@ -246,8 +247,11 @@
     padding-left: 0;
     margin-top: 2.5rem;
   }
-
+  .timelineSection {
+    padding: 0px;
+  }
   .timelineSection::before {
+    padding: 0px;
     left: 20px;
     top: 40px;
   }

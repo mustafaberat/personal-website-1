@@ -10,11 +10,12 @@ export default function HeaderComp() {
       <div className="container">
         {/* Logo must send to index so do not change [/=index] */}
         <Link href="/" className="header-logo">
-          <Image 
+          <Image
             src="/m-darkBlue.png"
             alt="MLOGO"
-            width={150}
-            height={50}
+            layout="intrinsic"
+            width={40}
+            height={40}
           />
         </Link>
         <div id="header-buttons" className="header-buttons">
