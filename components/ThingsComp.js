@@ -23,12 +23,12 @@ export const projects = {
     },
     {
       title: "Calculate Average",
-      image: "img/calculateaverage.PNG",
+      image: "https://raw.githubusercontent.com/mustafaberat/calculate-average/refs/heads/main/assets/mainpage.png",
       url: "https://calculateaverage.vercel.app/"
     },
     {
       title: "Personal Website",
-      image: "img/output.PNG",
+      image: "https://raw.githubusercontent.com/mustafaberat/personal-website-1/refs/heads/master/public/img/output.PNG",
       url: "/"
     },
     {

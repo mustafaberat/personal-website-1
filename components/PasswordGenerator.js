@@ -107,9 +107,8 @@ class PasswordGenerator extends React.Component {
         <div className="passwordInputDiv">
           <input
             className="password-input"
-            type="text"
-            id="password"
             type="password"
+            id="password"
             name="password"
             onChange={this.setPassword}
           />

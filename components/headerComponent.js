@@ -1,6 +1,7 @@
 import Link from "next/link";
 import MyHead from "./MyHead";
 import SidebarComp from "./SidebarComp";
+import Image from 'next/image'
 
 export default function HeaderComp() {
   return (
@@ -9,7 +10,12 @@ export default function HeaderComp() {
       <div className="container">
         {/* Logo must send to index so do not change [/=index] */}
         <Link href="/" className="header-logo">
-          <img src="/m-darkBlue.png" alt="MLOGO" />
+          <Image 
+            src="/m-darkBlue.png"
+            alt="MLOGO"
+            width={150}
+            height={50}
+          />
         </Link>
         <div id="header-buttons" className="header-buttons">
           <Link href="/about" className="header-button">

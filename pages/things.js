@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 
 import HeaderComp from '../components/headerComponent'
-import Things from '../components/ThingsComp'
+
+// Lazy load the Things component
+const Things = React.lazy(() => import('../components/ThingsComp'))
 
 const things = () => {
     return (
         <div>
             <HeaderComp />
-            <Things />
+            <Suspense fallback={<div>Loading...</div>}>
+                <Things />
+            </Suspense>
         </div>
     );
 }

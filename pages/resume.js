@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import styles from '../styles/Resume.module.css';
 import HeaderComp from '../components/headerComponent';
-import WorkExperience from '../components/resumeComps/WorkExperience';
-import Education from '../components/resumeComps/Education';
+
+// Lazy load the components
+const WorkExperience = React.lazy(() => import('../components/resumeComps/WorkExperience'));
+const Education = React.lazy(() => import('../components/resumeComps/Education'));
 
 const Resume = () => {
     return (
@@ -12,12 +14,16 @@ const Resume = () => {
                 <div className={styles.content}>
                     <h2 className={styles.title}>Resume</h2>
                     <div className={styles.grid}>
-                        <section className={styles.section}>
-                            <WorkExperience />
-                        </section>
-                        <section className={styles.section}>
-                            <Education />
-                        </section>
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <section className={styles.section}>
+                                <WorkExperience />
+                            </section>
+                        </Suspense>
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <section className={styles.section}>
+                                <Education />
+                            </section>
+                        </Suspense>
                     </div>
                 </div>
             </main>
