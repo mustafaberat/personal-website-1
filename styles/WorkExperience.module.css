@@ -4,7 +4,6 @@
 }
 
 .title {
-    font-size: 1.8rem;
     margin-bottom: 2rem;
     color: var(--white);
     border-bottom: 2px solid var(--grey);
@@ -93,7 +92,6 @@
 .detail {
     color: var(--white);
     line-height: 1.6;
-    font-size: 0.95rem;
 }
 
 .technologies {

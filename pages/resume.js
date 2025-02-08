@@ -15,12 +15,12 @@ const Resume = () => {
                     <h2 className={styles.title}>Resume</h2>
                     <div className={styles.grid}>
                         <Suspense fallback={<div>Loading...</div>}>
-                            <section className={styles.section}>
+                            <section className={`${styles.section} ${styles.workExperience}`}>
                                 <WorkExperience />
                             </section>
                         </Suspense>
                         <Suspense fallback={<div>Loading...</div>}>
-                            <section className={styles.section}>
+                            <section className={`${styles.section} ${styles.education}`}>
                                 <Education />
                             </section>
                         </Suspense>

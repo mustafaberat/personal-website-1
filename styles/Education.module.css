@@ -3,7 +3,6 @@
 }
 
 .title {
-    font-size: 1.8rem;
     margin-bottom: 1.5rem;
     color: var(--white);
     border-bottom: 2px solid var(--white);
@@ -71,7 +70,6 @@
 
 .details {
     color: var(--white);
-    font-size: 0.95rem;
     line-height: 1.5;
 }
 
