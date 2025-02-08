@@ -11,7 +11,7 @@
   font-size: 0.9rem;
   color: var(--grey);
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: var(--gutter);
 }
 
 .my-title-company{

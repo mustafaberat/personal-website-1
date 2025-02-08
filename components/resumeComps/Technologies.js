@@ -1,35 +1,46 @@
 import React from "react";
+import styles from "../../styles/Technologies.module.css";
 
 const technologiesData = [
   {
     name: "Golang / C# / NodeJs / Java / Python",
-    levelClass: "technologies-lvl-in100",
+    level: 100,
+    category: "Programming Languages"
   },
   {
     name: "Elastic / Cassandra / MongoDB / PostgreSQL",
-    levelClass: "technologies-lvl-in100",
+    level: 100,
+    category: "Databases"
   },
   {
     name: "Kafka / RabbitMQ / K8S",
-    levelClass: "technologies-lvl-in90",
+    level: 90,
+    category: "Infrastructure"
   },
   {
     name: "CSS / React / Vue",
-    levelClass: "technologies-lvl-in75",
+    level: 75,
+    category: "Frontend"
   },
 ];
 
 const Technologies = () => {
   return (
-    <div className="container">
-      <h1 className="name-surname">Resume</h1>
-      <div className="technologies-container">
-        <h1 className="technologies-title">Technologies</h1>
+    <div className={styles.container}>
+      <h2 className={styles.title}>Technologies</h2>
+      <div className={styles.skillsGrid}>
         {technologiesData.map((tech, index) => (
-          <div key={index}>
-            <div className="technologies-point">{tech.name}</div>
-            <div className="technologies-lvl">
-              <div className={tech.levelClass}></div>
+          <div key={index} className={styles.skillCard}>
+            <div className={styles.skillHeader}>
+              <span className={styles.category}>{tech.category}</span>
+              <span className={styles.percentage}>{tech.level}%</span>
+            </div>
+            <div className={styles.skillName}>{tech.name}</div>
+            <div className={styles.progressBar}>
+              <div 
+                className={styles.progressFill}
+                style={{ width: `${tech.level}%` }}
+              />
             </div>
           </div>
         ))}
