@@ -30,7 +30,8 @@
 }
 
 .section {
-    padding: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     background-color: var(--black);
     border-radius: var(--borderRadius);
 }

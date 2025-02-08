@@ -83,11 +83,6 @@
     font-size: 0.9rem;
 }
 
-.location::before {
-    content: '📍';
-    margin-right: 0.5rem;
-}
-
 .details {
     display: flex;
     flex-direction: column;
