@@ -49,6 +49,7 @@
 }
 
 .things-titlediv {
+  margin-bottom: 10px;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
 }

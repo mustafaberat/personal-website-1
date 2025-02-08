@@ -24,6 +24,16 @@ export const projects = {
       title: "Personal Website",
       image: "img/output.PNG",
       url: "/"
+    },
+    {
+      title: "Hangi Ay",
+      image: "https://raw.githubusercontent.com/mustafaberat/hangi-ay/main/public/output.png",
+      url: "https://hangi-ay.vercel.app/"
+    },
+    {
+      title: "WP Inst Msg",
+      image: "https://raw.githubusercontent.com/mustafaberat/wp-instant-msg/main/public/output.png",
+      url: "https://wp-instant-msg.vercel.app/"
     }
   ],
   games: [
@@ -46,16 +56,6 @@ export const projects = {
       title: "Piano",
       image: "https://raw.githubusercontent.com/mustafaberat/piano/master/public/screenshot.PNG",
       url: "https://piano-beta.now.sh/"
-    },
-    {
-      title: "Hangi Ay",
-      image: "https://raw.githubusercontent.com/mustafaberat/hangi-ay/main/public/output.png",
-      url: "https://hangi-ay.vercel.app/"
-    },
-    {
-      title: "WP Inst Msg",
-      image: "https://raw.githubusercontent.com/mustafaberat/wp-instant-msg/main/public/output.png",
-      url: "https://wp-instant-msg.vercel.app/"
     }
   ]
 }; 
