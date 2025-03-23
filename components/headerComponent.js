@@ -25,9 +25,6 @@ export default function HeaderComp() {
           <Link href="/resume" className="header-button">
             Resume
           </Link>
-          <Link href="/things" className="header-button">
-            Things
-          </Link>
         </div>
         <SidebarComp />
       </div>
