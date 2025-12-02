@@ -25,7 +25,7 @@ const workExperiences = [
   {
     title: "Instructor",
     company: "Turkish Technology Team",
-    date: "06/02/19 - Present",
+    date: "06/02/19 - 24/07/25",
     location: "Istanbul, Turkey",
     details: [
       "Conducted lessons every Sunday, covering various topics including Energy Technology, Internet of Things, Artificial Intelligence, Mobile Application Development, and Programming, with each course lasting over four months",
