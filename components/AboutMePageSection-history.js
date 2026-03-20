@@ -4,6 +4,11 @@ import styles from "../styles/About.module.css";
 
 const timelineData = [
   {
+    year: "2026",
+    content:
+      "In 2026, I started to diversify my career and reshape my perspective on software development. With the increasing integration of AI into our daily workflows, I significantly reduced my reliance on manual coding and shifted my focus toward architectural design, system thinking, and making the right technological decisions. Throughout this process, I concentrated not only on development but also on producing effective solutions, positioning systems correctly, and building sustainable structures. At the same time, I began taking on software support roles in different domains, gaining cross-functional experience and expanding my impact. As a result, I have been moving beyond being just a developer who writes code, toward becoming a professional who can think end-to-end, make architectural decisions, and deliver solutions across diverse needs.",
+  },
+  {
     year: "2025",
     content:
       "At Getir, with a new team, we not only continued processes but also completed the rewriting of the system. The new architectures to be implemented were chosen and applied according to the needs. This unique experience significantly improved my abilities in understanding why we do what we do, the improvement processes after something is done, and presenting this knowledge. While going through these stages, I learned new things in areas I thought I already knew, as I delved deeper into the topics. This journey was not only about my technical experiences but also a year where I played a significant role in the dynamics of the team, applying what I had learned in social relationships. Instead of shared responsibilities, the expression of managing all processes of a task from start to finish with fully assigned responsibilities was something I fully completed.",

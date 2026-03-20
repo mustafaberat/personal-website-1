@@ -6,7 +6,7 @@ const SocialMedia = () => {
     <article className="social-media-links about-social-media-area">
       <div className="df">
         <Link
-          href="https://www.instagram.com/mustafaberatt/"
+          href="https://www.instagram.com/mustafaberataru/"
           prefetch={false}
           className="social-media-instagram social-media-common"
           target="_blank"
@@ -40,7 +40,7 @@ const SocialMedia = () => {
           <i className="fab fa-codepen"></i>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/mustafaberatt/"
+          href="https://www.linkedin.com/in/mustafaberataru/"
           prefetch={false}
           className="social-media-linkedin social-media-common"
           target="_blank"
