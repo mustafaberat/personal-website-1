@@ -65,16 +65,6 @@
   font-weight: 500;
 }
 
-.companyLink {
-  text-decoration: none;
-}
-
-.companyLink:hover,
-.companyLink:focus-visible {
-  color: var(--yellow);
-  text-decoration: underline;
-}
-
 .meta {
   display: flex;
   flex-direction: column;
