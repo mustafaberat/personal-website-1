@@ -13,7 +13,11 @@ const Education = React.lazy(
 const Resume = () => {
   return (
     <div className={styles.container}>
-      <HeaderComp />
+      <HeaderComp
+        title="Resume — Mustafa Berat ARU"
+        description="Work experience and education resume of Mustafa Berat ARU, Senior Software Engineer."
+        path="/resume"
+      />
       <main className={styles.main}>
         <div className={styles.content}>
           <h2 className={styles.title}>Resume</h2>
