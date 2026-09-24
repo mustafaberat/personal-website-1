@@ -4,10 +4,28 @@ import Image from "next/image";
 
 const workExperiences = [
   {
+    title: "Founder",
+    company: "ARU SOFT",
+    companyUrl: "https://arusoft.now.sh/",
+    companyLogo: "/img/arusoft-logo.jpeg",
+    date: "21/09/26 - Present",
+    location: "Istanbul, Turkey",
+    details: [
+      "Building web applications, mobile apps, and custom software through ARU SOFT — turning ideas into production products across Flutter, React, and Next.js.",
+    ],
+    technologies: [
+      "React",
+      "Next.js",
+      "Flutter",
+      "JavaScript",
+      "Node.js",
+    ],
+  },
+  {
     title: "Senior Back End Developer",
     company: "Getir",
     companyLogo: "/img/getir-logo.jpeg",
-    date: "22/02/24 - Present",
+    date: "22/02/24 - 21/09/26",
     location: "Istanbul, Turkey",
     details: [
       "Responsible for maintaining and rewriting microservices within the Market Order Checkout and Basket Funnel, managing the entire process from basket creation to order delivery. Key responsibilities include stock checking, product updates, promotions, courier management, listing updates, and client interactions.",
@@ -144,7 +162,18 @@ const WorkExperience = () => {
                 )}
                 <div>
                   <h3 className={styles.jobTitle}>{experience.title}</h3>
-                  <span className={styles.company}>{experience.company}</span>
+                  {experience.companyUrl ? (
+                    <a
+                      href={experience.companyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`${styles.company} ${styles.companyLink}`}
+                    >
+                      {experience.company}
+                    </a>
+                  ) : (
+                    <span className={styles.company}>{experience.company}</span>
+                  )}
                 </div>
               </div>
               <div className={styles.meta}>

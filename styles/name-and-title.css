@@ -16,6 +16,12 @@
 
 .my-title-company {
   color: var(--yellow);
+  text-decoration: none;
+}
+
+a.my-title-company:hover,
+a.my-title-company:focus-visible {
+  text-decoration: underline;
 }
 
 .about-my-title {

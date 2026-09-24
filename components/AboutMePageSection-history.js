@@ -6,7 +6,7 @@ const timelineData = [
   {
     year: "2026",
     content:
-      "In 2026, I started to diversify my career and reshape my perspective on software development. With the increasing integration of AI into our daily workflows, I significantly reduced my reliance on manual coding and shifted my focus toward architectural design, system thinking, and making the right technological decisions. Throughout this process, I concentrated not only on development but also on producing effective solutions, positioning systems correctly, and building sustainable structures. At the same time, I began taking on software support roles in different domains, gaining cross-functional experience and expanding my impact. As a result, I have been moving beyond being just a developer who writes code, toward becoming a professional who can think end-to-end, make architectural decisions, and deliver solutions across diverse needs.",
+      "On 21 September 2026 I left Getir after two and a half years and shifted my focus to ARU SOFT, where I build web, mobile, and custom software products. With the increasing integration of AI into daily workflows, I reduced my reliance on manual coding and concentrated on architectural design, system thinking, and making the right technological decisions. Throughout this process I focused not only on development but also on producing effective solutions, positioning systems correctly, and building sustainable structures. I also began taking on software support roles in different domains, gaining cross-functional experience and expanding my impact — moving beyond writing code toward thinking end-to-end and delivering solutions across diverse needs.",
   },
   {
     year: "2025",
@@ -16,7 +16,7 @@ const timelineData = [
   {
     year: "2024",
     content:
-      "Over the past remarkable two years and eight months, I've transitioned between two diverse teams, each offering unique perspectives on business, approaches, and technologies. When I joined Trendyol, it was well-established, almost at its final iteration, which presented clear boundaries. I often found myself yearning to delve into its earlier versions to understand the evolution and rationale behind its current state. This curiosity led me to pursue a new opportunity with a dynamic, growing company where I could leverage my skills and experiences effectively. Now, I'm part of Getir, a company well known for its agile teams, relentless pace, and boundary-breaking challenges. I thrive in this environment and find it incredibly engaging.",
+      "Over two years and eight months I transitioned between two diverse teams, each offering unique perspectives on business, approaches, and technologies. When I joined Trendyol, it was well-established, almost at its final iteration, which presented clear boundaries. I often found myself yearning to delve into its earlier versions to understand the evolution and rationale behind its current state. That curiosity led me to Getir, a company well known for its agile teams, relentless pace, and boundary-breaking challenges. I thrived in that environment and found it incredibly engaging.",
   },
   {
     year: "2020",
@@ -59,7 +59,17 @@ const AboutPageSection = () => {
           />
           <div className={styles.introText}>
             <h1 className={styles.name}>Mustafa Berat ARU</h1>
-            <h2 className={styles.title}>Software Engineer</h2>
+            <h2 className={styles.title}>
+              Senior Software Engineer at{" "}
+              <a
+                href="https://arusoft.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.companyLink}
+              >
+                ARU SOFT
+              </a>
+            </h2>
           </div>
         </div>
       </div>
