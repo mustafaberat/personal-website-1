@@ -42,6 +42,16 @@
   font-weight: 500;
 }
 
+.companyLink {
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.companyLink:hover,
+.companyLink:focus-visible {
+  text-decoration: underline;
+}
+
 .aboutText {
   font-size: 1.1rem;
   line-height: 1.6;

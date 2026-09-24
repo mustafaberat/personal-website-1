@@ -10,7 +10,14 @@ const HomePageSection = () => {
         <h1 className="name-surname">MUSTAFA BERAT ARU</h1>
         <p className="my-title">
           Senior Software Engineer at{" "}
-          <span className="my-title-company">Getir</span>
+          <a
+            href="https://arusoft.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="my-title-company"
+          >
+            ARU SOFT
+          </a>
         </p>
         <SocialMedia />
         <MailForHomePage />
