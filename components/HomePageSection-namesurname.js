@@ -11,7 +11,7 @@ const HomePageSection = () => {
         <p className="my-title">
           Senior Software Engineer at{" "}
           <a
-            href="https://arusoft.now.sh/"
+            href="https://arusoft.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="my-title-company"

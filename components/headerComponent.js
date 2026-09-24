@@ -3,16 +3,16 @@ import MyHead from "./MyHead";
 import SidebarComp from "./SidebarComp";
 import Image from "next/image";
 
-export default function HeaderComp() {
+export default function HeaderComp({ title, description, path }) {
   return (
     <header className="header">
-      <MyHead />
+      <MyHead title={title} description={description} path={path} />
       <div className="container">
         {/* Logo must send to index so do not change [/=index] */}
         <Link href="/" className="header-logo">
           <Image
             src="/m-darkBlue.png"
-            alt="MLOGO"
+            alt="Mustafa Berat ARU"
             layout="intrinsic"
             width={40}
             height={40}
