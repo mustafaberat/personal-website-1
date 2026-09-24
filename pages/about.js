@@ -6,7 +6,11 @@ import styles from "../styles/About.module.css";
 const About = () => {
   return (
     <div className={styles.container}>
-      <HeaderComp />
+      <HeaderComp
+        title="About — Mustafa Berat ARU"
+        description="Career timeline and background of Mustafa Berat ARU, Senior Software Engineer."
+        path="/about"
+      />
       <main className={styles.main}>
         <AboutMePageSectionHistory />
       </main>
