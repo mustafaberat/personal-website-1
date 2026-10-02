@@ -1,24 +1,15 @@
 /*
-  Chrome, prefers-color-scheme: dark iken canvas’ı ~#000 boyayabiliyor.
-  --black (#03061c) ≠ #000 → altta seam.
-
-  color-scheme: dark KULLANMA.
-  Sabit .page-bg viewport’u tek renk kaplar (content yüksekliğine bağlı değil).
+  Chrome dark-mode canvas ~#000; --black #03061c → seam.
+  Tek boya: sabit .page-bg (viewport). color-scheme: dark yok.
 */
-html {
-  background-color: var(--black);
-}
-
 body {
   margin: 0;
   min-height: 100dvh;
-  background-color: var(--black);
 }
 
 .app-root {
   position: relative;
   min-height: 100dvh;
-  background-color: var(--black);
 }
 
 .page-bg {
