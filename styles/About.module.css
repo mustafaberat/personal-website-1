@@ -42,13 +42,6 @@
   font-weight: 500;
 }
 
-.aboutText {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin: 0;
-  color: var(--white);
-}
-
 .sectionTitle {
   color: var(--white);
   font-size: 2rem;
@@ -151,12 +144,6 @@
   color: var(--white);
   line-height: 1.8;
   font-size: 1.1rem;
-}
-
-.socialSection {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
 }
 
 @media (max-width: 768px) {

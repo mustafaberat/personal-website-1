@@ -1,9 +1,7 @@
-import React from "react";
+import SocialMedia from "./SocialMedia";
+import { EMAIL } from "../data/site";
 
-import SocialMedia from "../components/SocialMedia";
-import MailForHomePage from "../components/MailForHomePage";
-
-const HomePageSection = () => {
+export default function Hero() {
   return (
     <section className="section">
       <div className="container">
@@ -20,10 +18,10 @@ const HomePageSection = () => {
           </a>
         </p>
         <SocialMedia />
-        <MailForHomePage />
+        <a href={`mailto:${EMAIL}`} className="mailforhomepage">
+          {EMAIL}
+        </a>
       </div>
     </section>
   );
-};
-
-export default HomePageSection;
+}

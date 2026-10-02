@@ -1,44 +1,40 @@
-import React from 'react';
-import Head from 'next/head';
+import Head from "next/head";
+import {
+  SITE_URL,
+  SITE_NAME,
+  DEFAULT_DESCRIPTION,
+  EMAIL,
+} from "../data/site";
+import { socialLinks } from "../data/social";
 
-export const SITE_URL = 'https://mustafaberat.vercel.app';
-export const SITE_NAME = 'Mustafa Berat ARU';
-export const DEFAULT_DESCRIPTION =
-  'Mustafa Berat ARU — Senior Software Engineer. Personal site with resume, about, and contact.';
-
-const MyHead = ({
+export default function SiteHead({
   title = `${SITE_NAME} — Senior Software Engineer`,
   description = DEFAULT_DESCRIPTION,
-  path = '/',
-}) => {
-  const canonical = `${SITE_URL}${path === '/' ? '' : path}`;
+  path = "/",
+}) {
+  const canonical = `${SITE_URL}${path === "/" ? "" : path}`;
   const ogImage = `${SITE_URL}/m-darkBlue.png`;
 
   const personJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Person',
+    "@context": "https://schema.org",
+    "@type": "Person",
     name: SITE_NAME,
     url: `${SITE_URL}/`,
-    email: 'mustafa.berat.aru@gmail.com',
-    jobTitle: 'Senior Software Engineer',
+    email: EMAIL,
+    jobTitle: "Senior Software Engineer",
     worksFor: {
-      '@type': 'Organization',
-      name: 'ARU SOFT',
-      url: 'https://arusoft.vercel.app/',
+      "@type": "Organization",
+      name: "ARU SOFT",
+      url: "https://arusoft.vercel.app/",
     },
-    sameAs: [
-      'https://github.com/mustafaberat/',
-      'https://www.linkedin.com/in/mustafaberataru/',
-      'https://medium.com/@mustafaberat',
-      'https://www.instagram.com/mustafaberataru/',
-    ],
+    sameAs: socialLinks.map((link) => link.href),
   };
 
   const websiteJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
+    "@context": "https://schema.org",
+    "@type": "WebSite",
     name: SITE_NAME,
-    alternateName: ['Mustafa Berat', 'mustafaberat.vercel.app'],
+    alternateName: ["Mustafa Berat", "mustafaberat.vercel.app"],
     url: `${SITE_URL}/`,
   };
 
@@ -75,7 +71,7 @@ const MyHead = ({
         crossOrigin="anonymous"
       />
 
-      {path === '/' && (
+      {path === "/" && (
         <>
           <script
             type="application/ld+json"
@@ -93,6 +89,4 @@ const MyHead = ({
       )}
     </Head>
   );
-};
-
-export default MyHead;
+}

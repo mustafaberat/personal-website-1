@@ -1,63 +1,29 @@
-import React from "react";
 import Link from "next/link";
+import { socialLinks } from "../data/social";
 
-const SocialMedia = () => {
+export default function SocialMedia() {
+  const mid = Math.ceil(socialLinks.length / 2);
+  const rows = [socialLinks.slice(0, mid), socialLinks.slice(mid)];
+
   return (
-    <article className="social-media-links about-social-media-area">
-      <div className="df">
-        <Link
-          href="https://www.instagram.com/mustafaberataru/"
-          prefetch={false}
-          className="social-media-instagram social-media-common"
-          target="_blank"
-        >
-          <i className="fab fa-instagram"></i>
-        </Link>
-        <Link
-          href="https://github.com/mustafaberat/"
-          prefetch={false}
-          className="social-media-github social-media-common"
-          target="_blank"
-        >
-          <i className="fab fa-github-alt"></i>
-        </Link>
-        <Link
-          href="https://www.facebook.com/mustafaberatt"
-          prefetch={false}
-          className="social-media-facebook social-media-common"
-          target="_blank"
-        >
-          <i className="fab fa-facebook-f"></i>
-        </Link>
-      </div>
-      <div className="df">
-        <Link
-          href="https://codepen.io/mustafaberatt"
-          prefetch={false}
-          className="social-media-codepen social-media-common"
-          target="_blank"
-        >
-          <i className="fab fa-codepen"></i>
-        </Link>
-        <Link
-          href="https://www.linkedin.com/in/mustafaberataru/"
-          prefetch={false}
-          className="social-media-linkedin social-media-common"
-          target="_blank"
-        >
-          <i className="fab fa-linkedin-in"></i>
-        </Link>
-        <Link
-          href="https://medium.com/@mustafaberat"
-          prefetch={false}
-          className="social-media-medium social-media-common"
-          target="_blank"
-        >
-          <i className="fab fa-medium-m"></i>
-        </Link>
-      </div>
+    <article className="social-media-links">
+      {rows.map((row, rowIndex) => (
+        <div key={rowIndex} className="df">
+          {row.map(({ href, icon, label }) => (
+            <Link
+              key={href}
+              href={href}
+              prefetch={false}
+              className="social-media-common"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+            >
+              <i className={`fab ${icon}`} />
+            </Link>
+          ))}
+        </div>
+      ))}
     </article>
   );
-};
-
-export default SocialMedia;
+}

@@ -1,7 +1,7 @@
 @import "./formalize.css";
 @import "./normalize.css";
 
-@import url("https://fonts.googleapis.com/css?family=Exo:300,400&display=swap"); /* FONT */
+@import url("https://fonts.googleapis.com/css?family=Exo:300,400&display=swap");
 
 @import "./variables.css";
 @import "./global.css";
@@ -10,7 +10,4 @@
 @import "./section.css";
 @import "./name-and-title.css";
 @import "./social-medias.css";
-@import "./workexperience.css";
-@import "./password-generator.css";
-
 @import "./devices.css";

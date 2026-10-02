@@ -14,19 +14,7 @@
     padding-left: 9%;
     padding-right: 9%;
   }
-  .work-title {
-    font-size: 1.2rem;
-  }
-  .work-companay {
-    font-size: 0.9rem;
-  }
-  .work-location,
-  .work-date,
-  .work-details {
-    font-size: 0.8rem;
-  }
 
-  /* SIDE BAR */
   .sidebardiv {
     display: flex;
   }
@@ -46,6 +34,12 @@
     margin: 4px;
     box-shadow: 0 10px 30px var(--black);
     z-index: 10;
+    pointer-events: none;
+  }
+  .header-buttons.is-open {
+    opacity: 1;
+    transform: translate(0);
+    pointer-events: auto;
   }
   .header-button {
     color: var(--white);
@@ -80,19 +74,6 @@
     padding-left: 11%;
     padding-right: 11%;
   }
-
-  .workexperience-title,
-  .work-title {
-    font-size: 1rem;
-  }
-  .work-companay {
-    font-size: 0.8rem;
-  }
-  .work-location,
-  .work-date,
-  .work-details {
-    font-size: 0.7rem;
-  }
 }
 
 @media (max-width: 280px) {
@@ -105,27 +86,20 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-  .work-companay {
-    font-size: 0.7rem;
-  }
-  .work-location,
-  .work-date,
-  .work-details {
-    font-size: 0.6rem;
-  }
 }
 
-/* SPECIFIC */
 @media (max-width: 325px) {
   .name-surname {
     padding-left: 33px;
     padding-right: 33px;
   }
 }
+
 @media (min-width: 517px) {
   .header-buttons {
     display: flex !important;
     opacity: 1 !important;
     transform: translate(0) !important;
+    pointer-events: auto !important;
   }
 }

@@ -23,12 +23,3 @@ a.my-title-company:hover,
 a.my-title-company:focus-visible {
   text-decoration: underline;
 }
-
-.about-my-title {
-  line-height: 1.4;
-  text-transform: none;
-}
-
-.about-spans {
-  color: var(--yellow);
-}

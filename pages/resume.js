@@ -1,42 +1,30 @@
-import React, { Suspense } from "react";
+import Layout from "../components/Layout";
+import WorkExperience from "../components/resume/WorkExperience";
+import Education from "../components/resume/Education";
 import styles from "../styles/Resume.module.css";
-import HeaderComp from "../components/headerComponent";
 
-// Lazy load the components
-const WorkExperience = React.lazy(
-  () => import("../components/resumeComps/WorkExperience"),
-);
-const Education = React.lazy(
-  () => import("../components/resumeComps/Education"),
-);
-
-const Resume = () => {
+export default function Resume() {
   return (
-    <div className={styles.container}>
-      <HeaderComp
-        title="Resume — Mustafa Berat ARU"
-        description="Work experience and education resume of Mustafa Berat ARU, Senior Software Engineer."
-        path="/resume"
-      />
-      <main className={styles.main}>
-        <div className={styles.content}>
-          <h2 className={styles.title}>Resume</h2>
-          <div className={styles.grid}>
-            <Suspense fallback={<div>Loading...</div>}>
+    <Layout
+      title="Resume — Mustafa Berat ARU"
+      description="Work experience and education resume of Mustafa Berat ARU, Senior Software Engineer."
+      path="/resume"
+    >
+      <div className={styles.container}>
+        <main className={styles.main}>
+          <div className={styles.content}>
+            <h2 className={styles.title}>Resume</h2>
+            <div className={styles.grid}>
               <section className={`${styles.section} ${styles.workExperience}`}>
                 <WorkExperience />
               </section>
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
               <section className={`${styles.section} ${styles.education}`}>
                 <Education />
               </section>
-            </Suspense>
+            </div>
           </div>
-        </div>
-      </main>
-    </div>
+        </main>
+      </div>
+    </Layout>
   );
-};
-
-export default Resume;
+}

@@ -30,18 +30,6 @@
   align-items: center;
 }
 
-.logoContainer {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--borderRadius);
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.logo {
-  object-fit: cover;
-}
-
 .degree {
   font-size: 1.1rem;
   font-weight: 600;
@@ -68,29 +56,6 @@
   display: block;
 }
 
-.details {
-  color: var(--white);
-  line-height: 1.5;
-}
-
-.achievement {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--white);
-  color: var(--white);
-  padding: 0.3rem 0.8rem;
-  border-radius: var(--borderRadius);
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  transition: all 0.2s ease;
-}
-
-.achievement:hover {
-  background: var(--blue);
-  transform: translateY(-2px);
-}
-
 .achievementIcon {
   display: flex;
   align-items: center;
@@ -107,7 +72,6 @@
   border-radius: var(--borderRadius);
   font-size: 0.85rem;
   transition: all 0.2s ease;
-  cursor: pointer;
 }
 
 .techTag:hover {

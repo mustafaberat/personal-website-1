@@ -1,14 +1,10 @@
-// Note: TO RUN = YARN DEV
-import React from "react";
+import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 
-import HeaderComp from "../components/headerComponent";
-import HomePageSection from "../components/HomePageSection-namesurname";
-
-const Home = () => (
-  <div>
-    <HeaderComp />
-    <HomePageSection />
-  </div>
-);
-
-export default Home;
+export default function Home() {
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
+}

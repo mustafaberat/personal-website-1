@@ -1,8 +1,4 @@
-import React from "react";
-import Image from "next/image";
-import styles from "../styles/About.module.css";
-
-const timelineData = [
+export const timelineData = [
   {
     year: "2026",
     content:
@@ -44,40 +40,3 @@ const timelineData = [
       "I started the English preparatory class in 2016 and that year, I chased a lot of tourists to practice on the street. Some of them tried to escape from my slow talk but I got better day by day.",
   },
 ];
-
-const AboutPageSection = () => {
-  return (
-    <div className={styles.aboutContainer}>
-      <div className={styles.headerSection}>
-        <div className={styles.profileInfo}>
-          <Image
-            src="/img/my-photo.jpeg"
-            alt="Profile Photo"
-            width={120}
-            height={120}
-            className={styles.profileImage}
-          />
-          <div className={styles.introText}>
-            <h1 className={styles.name}>Mustafa Berat ARU</h1>
-            <h2 className={styles.title}>Software Engineer</h2>
-          </div>
-        </div>
-      </div>
-
-      <h2 className={styles.sectionTitle}>Career History</h2>
-
-      <div className={styles.timelineSection}>
-        {timelineData.map((item, index) => (
-          <div key={index} className={styles.timelineItem}>
-            <div className={styles.timelineYear}>{item.year}</div>
-            <div className={styles.timelineContent}>
-              <p>{item.content}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default AboutPageSection;

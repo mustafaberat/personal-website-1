@@ -1,21 +1,14 @@
-import React from "react";
-import HeaderComp from "../components/headerComponent";
-import AboutMePageSectionHistory from "../components/AboutMePageSection-history";
-import styles from "../styles/About.module.css";
+import Layout from "../components/Layout";
+import AboutTimeline from "../components/AboutTimeline";
 
-const About = () => {
+export default function About() {
   return (
-    <div className={styles.container}>
-      <HeaderComp
-        title="About — Mustafa Berat ARU"
-        description="Career timeline and background of Mustafa Berat ARU, Senior Software Engineer."
-        path="/about"
-      />
-      <main className={styles.main}>
-        <AboutMePageSectionHistory />
-      </main>
-    </div>
+    <Layout
+      title="About — Mustafa Berat ARU"
+      description="Career timeline and background of Mustafa Berat ARU, Senior Software Engineer."
+      path="/about"
+    >
+      <AboutTimeline />
+    </Layout>
   );
-};
-
-export default About;
+}
