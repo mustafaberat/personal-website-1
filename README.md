@@ -1,3 +1,3 @@
-# Welcome to my page
+# Mustafa Berat ARU
 
-![screenshot of the home page](https://github.com/mustafaberat/personal-website-1/blob/master/public/img/output.PNG)
+Personal site — [mustafaberat.now.sh](https://mustafaberat.now.sh)
