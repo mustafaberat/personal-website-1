@@ -22,6 +22,7 @@ export default function Header({ title, description, path }) {
             alt="Mustafa Berat ARU"
             width={40}
             height={40}
+            sizes="40px"
           />
         </Link>
         <div

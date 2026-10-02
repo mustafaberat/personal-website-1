@@ -1,15 +1,15 @@
 .aboutContainer {
-  max-width: 1200px;
+  max-width: var(--maxWidth);
   margin: 0 auto;
   padding: 2rem;
 }
 
 .headerSection {
-  background: var(--secondary-bg);
+  background: var(--surface);
   border-radius: var(--borderRadius);
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 6px var(--shadow-color);
+  box-shadow: 0 4px 6px var(--shadow);
   text-align: center;
 }
 
@@ -83,7 +83,7 @@
   transform: translate(-50%, -50%);
   width: 40px;
   height: 40px;
-  background: var;
+  background: var(--surface);
   z-index: 1;
 }
 
@@ -94,7 +94,7 @@
   top: 30px;
   width: 31px;
   height: 2px;
-  background: var(--accent-color);
+  background: var(--accent);
 }
 
 /* Add the vertical line for years */
@@ -105,7 +105,7 @@
   top: 0;
   height: 40px;
   width: 2px;
-  background: var(--accent-color);
+  background: var(--accent);
   z-index: 1;
 }
 
@@ -123,17 +123,17 @@
 
 /* Add the semi-circle fill effect */
 .timelineItem:hover::before {
-  background: var(--accent-color);
+  background: var(--accent);
   transition: background 0.3s ease;
 }
 
 .timelineContent {
   flex: 1;
-  background: var(--secondary-bg);
+  background: var(--surface);
   padding: 2rem;
   border-radius: var(--borderRadius);
   position: relative;
-  box-shadow: 0 4px 15px var(--shadow-color);
+  box-shadow: 0 4px 15px var(--shadow);
   border: 1px solid var(--grey);
   margin-top: 10px;
   overflow-x: auto;
@@ -249,7 +249,7 @@
     font-size: 0.9rem;
     width: auto;
     padding: 0.25rem 0.75rem;
-    background: var(--accent-color);
+    background: var(--accent);
     border-radius: var(--borderRadius);
   }
 

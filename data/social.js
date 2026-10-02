@@ -1,32 +1,32 @@
 export const socialLinks = [
   {
     href: "https://www.instagram.com/mustafaberataru/",
-    icon: "fa-instagram",
+    icon: "instagram",
     label: "Instagram",
   },
   {
     href: "https://github.com/mustafaberat/",
-    icon: "fa-github-alt",
+    icon: "github",
     label: "GitHub",
   },
   {
     href: "https://www.facebook.com/mustafaberatt",
-    icon: "fa-facebook-f",
+    icon: "facebook",
     label: "Facebook",
   },
   {
     href: "https://codepen.io/mustafaberatt",
-    icon: "fa-codepen",
+    icon: "codepen",
     label: "CodePen",
   },
   {
     href: "https://www.linkedin.com/in/mustafaberataru/",
-    icon: "fa-linkedin-in",
+    icon: "linkedin",
     label: "LinkedIn",
   },
   {
     href: "https://medium.com/@mustafaberat",
-    icon: "fa-medium-m",
+    icon: "medium",
     label: "Medium",
   },
 ];

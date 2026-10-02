@@ -8,7 +8,7 @@
   .social-media-common {
     border-radius: var(--borderRadius);
     border: 1px solid var(--blue);
-    padding: 12px;
+    padding: 0.75rem;
   }
   .social-media-links {
     padding-left: 9%;
@@ -26,13 +26,13 @@
     left: 0;
     right: 0;
     top: 100%;
-    padding: 5px;
+    padding: 0.3rem;
     background-color: var(--blue);
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 4px;
-    box-shadow: 0 10px 30px var(--black);
+    margin: 0.25rem;
+    box-shadow: 0 0.6rem 1.9rem var(--black);
     z-index: 10;
     pointer-events: none;
   }
@@ -47,8 +47,8 @@
     width: -webkit-fill-available;
     text-align: center;
     align-items: center;
-    padding-bottom: 4px;
-    margin-right: 0px;
+    padding-bottom: 0.25rem;
+    margin-right: 0;
     justify-content: center;
   }
 }
@@ -66,9 +66,10 @@
   .social-media-common {
     border: 1px solid var(--blue);
     border-radius: var(--borderRadius);
-    padding: 12px;
-    height: 30px;
-    width: 30px;
+    padding: 0.75rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    font-size: 1.5rem;
   }
   .social-media-links {
     padding-left: 11%;
@@ -80,7 +81,7 @@
   .social-media-common {
     border-radius: var(--borderRadius);
     border: 1px solid var(--blue);
-    padding: 12px;
+    padding: 0.75rem;
   }
   .social-media-links {
     padding-left: 5%;
@@ -90,8 +91,8 @@
 
 @media (max-width: 325px) {
   .name-surname {
-    padding-left: 33px;
-    padding-right: 33px;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
 

@@ -1,5 +1,6 @@
 import styles from "../../styles/Education.module.css";
 import { educationData } from "../../data/education";
+import { IconMedal } from "../icons";
 
 export default function Education() {
   return (
@@ -25,7 +26,7 @@ export default function Education() {
               {education.achievements.map((text) => (
                 <span key={text} className={styles.techTag}>
                   <span className={styles.achievementIcon} aria-hidden="true">
-                    <i className="fas fa-medal" />
+                    <IconMedal width="1em" height="1em" />
                   </span>
                   {text}
                 </span>

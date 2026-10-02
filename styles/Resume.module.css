@@ -1,18 +1,16 @@
 .container {
   min-height: 100vh;
-  background-color: var(--black);
 }
 
 .main {
   padding: 2rem 1rem;
-  max-width: 1200px;
+  max-width: var(--maxWidth);
   margin: 0 auto;
 }
 
 .content {
-  background-color: var(--black);
   border-radius: var(--borderRadius);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px var(--shadow);
   padding: 2rem;
 }
 
@@ -30,7 +28,6 @@
 }
 
 .section {
-  background-color: var(--black);
   border-radius: var(--borderRadius);
 }
 
@@ -43,7 +40,7 @@
 .education h2 {
   font-size: 1rem;
 }
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .main {
     padding: 1rem;

@@ -13,6 +13,7 @@ export default function AboutTimeline() {
             alt="Profile Photo"
             width={120}
             height={120}
+            sizes="120px"
             className={styles.profileImage}
           />
           <div className={styles.introText}>

@@ -4,6 +4,7 @@ import {
   SITE_NAME,
   DEFAULT_DESCRIPTION,
   EMAIL,
+  THEME_COLOR,
 } from "../data/site";
 import { socialLinks } from "../data/social";
 
@@ -47,7 +48,7 @@ export default function SiteHead({
       <link rel="canonical" href={canonical} />
       <link rel="icon" href="/m-blue.png" />
       <link rel="apple-touch-icon" href="/m-darkBlue.png" />
-      <meta name="theme-color" content="#03061c" />
+      <meta name="theme-color" content={THEME_COLOR} />
       <meta name="application-name" content={SITE_NAME} />
       <meta name="author" content={SITE_NAME} />
 
@@ -63,13 +64,6 @@ export default function SiteHead({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
-
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossOrigin="anonymous"
-      />
 
       {path === "/" && (
         <>

@@ -1,3 +1,5 @@
+import { IconBars, IconTimes } from "./icons";
+
 export default function Sidebar({ open, onToggle }) {
   return (
     <nav className="sidebardiv">
@@ -8,7 +10,11 @@ export default function Sidebar({ open, onToggle }) {
         aria-expanded={open}
         aria-label={open ? "Close menu" : "Open menu"}
       >
-        <i className={`fas ${open ? "fa-times" : "fa-bars"}`} />
+        {open ? (
+          <IconTimes className="sidebar-icon" />
+        ) : (
+          <IconBars className="sidebar-icon" />
+        )}
       </button>
     </nav>
   );

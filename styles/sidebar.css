@@ -9,14 +9,14 @@
   cursor: pointer;
   background-color: inherit;
   margin-left: auto;
-}
-
-.sidebar-menu-btn i {
-  color: var(--blue);
-  width: 100%;
-  height: 100%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+}
+
+.sidebar-icon {
+  color: var(--blue);
+  width: 2rem;
+  height: 2rem;
+  display: block;
 }

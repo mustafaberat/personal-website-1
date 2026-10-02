@@ -1,9 +1,16 @@
 :root {
+  /* palette — tek yerde statik renk */
   --black: #03061c;
   --grey: #babdc4;
   --blue: #3a8ee8;
-  --yellow: rgb(235, 176, 76);
+  --yellow: #ebb04c;
   --white: #fffde1;
+  --shadow: #00000033;
+
+  /* semantic aliases (ikinci ton yok — seam/grilik önler) */
+  --surface: var(--black);
+  --accent: var(--blue);
+
   --maxWidth: 1200px;
   --fingerSize: 40px;
   --gutter: 20px;
