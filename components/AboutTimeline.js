@@ -5,36 +5,42 @@ import { SITE_NAME } from "../data/site";
 
 export default function AboutTimeline() {
   return (
-    <div className={styles.aboutContainer}>
-      <div className={styles.headerSection}>
-        <div className={styles.profileInfo}>
-          <Image
-            src="/img/my-photo.jpeg"
-            alt="Profile Photo"
-            width={120}
-            height={120}
-            sizes="120px"
-            className={styles.profileImage}
-          />
-          <div className={styles.introText}>
-            <h1 className={styles.name}>{SITE_NAME}</h1>
-            <h2 className={styles.title}>Software Engineer</h2>
-          </div>
+    <article className={styles.page}>
+      <header className={styles.intro}>
+        <Image
+          src="/img/my-photo.jpeg"
+          alt={`${SITE_NAME} profile photo`}
+          width={112}
+          height={112}
+          sizes="112px"
+          className={styles.photo}
+        />
+        <div>
+          <h1 className={styles.name}>{SITE_NAME}</h1>
+          <p className={styles.role}>Senior Software Engineer</p>
         </div>
-      </div>
+      </header>
 
-      <h2 className={styles.sectionTitle}>Career History</h2>
+      <section className={styles.history} aria-labelledby="career-heading">
+        <h2 id="career-heading" className={styles.heading}>
+          Career History
+        </h2>
 
-      <div className={styles.timelineSection}>
-        {timelineData.map((item) => (
-          <div key={item.year} className={styles.timelineItem}>
-            <div className={styles.timelineYear}>{item.year}</div>
-            <div className={styles.timelineContent}>
-              <p>{item.content}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
+        <ol className={styles.timeline}>
+          {timelineData.map((item, index) => (
+            <li
+              key={item.year}
+              className={styles.entry}
+              style={{ "--entry-i": index }}
+            >
+              <time className={styles.year} dateTime={item.year}>
+                {item.year}
+              </time>
+              <p className={styles.body}>{item.content}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </article>
   );
 }
