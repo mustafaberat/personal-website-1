@@ -5,7 +5,6 @@
 }
 
 .headerSection {
-  background: var(--surface);
   border-radius: var(--borderRadius);
   padding: 2rem;
   margin-bottom: 2rem;
@@ -83,7 +82,7 @@
   transform: translate(-50%, -50%);
   width: 40px;
   height: 40px;
-  background: var(--surface);
+  background: var(--accent);
   z-index: 1;
 }
 
@@ -129,7 +128,6 @@
 
 .timelineContent {
   flex: 1;
-  background: var(--surface);
   padding: 2rem;
   border-radius: var(--borderRadius);
   position: relative;

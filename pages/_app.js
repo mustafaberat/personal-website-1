@@ -10,7 +10,10 @@ const exo = Exo({
 export default function MyApp({ Component, pageProps }) {
   return (
     <div className={`${exo.className} app-root`}>
-      <Component {...pageProps} />
+      <div className="page-bg" aria-hidden="true" />
+      <div className="page-content">
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }

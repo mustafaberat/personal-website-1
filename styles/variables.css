@@ -7,8 +7,6 @@
   --white: #fffde1;
   --shadow: #00000033;
 
-  /* semantic aliases (ikinci ton yok — seam/grilik önler) */
-  --surface: var(--black);
   --accent: var(--blue);
 
   --maxWidth: 1200px;

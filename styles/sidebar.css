@@ -7,7 +7,7 @@
   width: var(--fingerSize);
   height: var(--fingerSize);
   cursor: pointer;
-  background-color: inherit;
+  background: none;
   margin-left: auto;
   display: inline-flex;
   align-items: center;

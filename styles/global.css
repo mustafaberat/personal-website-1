@@ -1,19 +1,38 @@
-/* Tek boya katmanı: html+body+app-root üst üste aynı rengi boyayınca
-   Chrome'da zoom'a göre kayan yatay ton farkı (seam) oluşabiliyor. */
+/*
+  Chrome, prefers-color-scheme: dark iken canvas’ı ~#000 boyayabiliyor.
+  --black (#03061c) ≠ #000 → altta seam.
+
+  color-scheme: dark KULLANMA.
+  Sabit .page-bg viewport’u tek renk kaplar (content yüksekliğine bağlı değil).
+*/
 html {
-  color-scheme: dark;
   background-color: var(--black);
 }
 
 body {
   margin: 0;
-  min-height: 100vh;
-  background: none;
+  min-height: 100dvh;
+  background-color: var(--black);
 }
 
 .app-root {
-  min-height: 100vh;
-  background: none;
+  position: relative;
+  min-height: 100dvh;
+  background-color: var(--black);
+}
+
+.page-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-color: var(--black);
+  pointer-events: none;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  min-height: 100dvh;
 }
 
 .container {
