@@ -19,16 +19,6 @@ export const workExperiences = [
     ],
   },
   {
-    title: "Instructor",
-    company: "Turkish Technology Team",
-    date: "06/02/19 - 24/07/25",
-    location: "Istanbul, Turkey",
-    details: [
-      "Conducted lessons every Sunday, covering various topics including Energy Technology, Internet of Things, Artificial Intelligence, Mobile Application Development, and Programming, with each course lasting over four months",
-    ],
-    companyLogo: "/img/t3-logo.jpeg",
-  },
-  {
     title: "Back End Developer",
     company: "Trendyol Group",
     date: "14/09/21 - 01/01/24",
@@ -51,6 +41,16 @@ export const workExperiences = [
       "Docker",
     ],
     companyLogo: "/img/trendyol-logo.jpeg",
+  },
+  {
+    title: "Instructor",
+    company: "Turkish Technology Team",
+    date: "06/02/19 - 24/07/25",
+    location: "Istanbul, Turkey",
+    details: [
+      "Conducted lessons every Sunday, covering various topics including Energy Technology, Internet of Things, Artificial Intelligence, Mobile Application Development, and Programming, with each course lasting over four months",
+    ],
+    companyLogo: "/img/t3-logo.jpeg",
   },
   {
     title: "Software Engineer",
