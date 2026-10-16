@@ -18,7 +18,7 @@
     "review:fix": "npm-run-all clean lint:fix format && npm run build"
   },
   "dependencies": {
-    "next": "15.5.26",
+    "next": "15.5.27",
     "react": "latest",
     "react-dom": "latest"
   },
