@@ -19,8 +19,12 @@
     display: flex;
   }
   .header-buttons {
+    /* Hide in place: translateX(100%) made the closed menu as wide as
+       the viewport and pushed it off to the right, expanding scrollWidth
+       and allowing horizontal pan (left content appeared clipped). */
     opacity: 0;
-    transform: translateX(100%);
+    visibility: hidden;
+    transform: translateY(-0.35rem);
     border-radius: var(--borderRadius);
     position: absolute;
     left: 0;
@@ -38,6 +42,7 @@
   }
   .header-buttons.is-open {
     opacity: 1;
+    visibility: visible;
     transform: translate(0);
     pointer-events: auto;
   }
@@ -100,6 +105,7 @@
   .header-buttons {
     display: flex !important;
     opacity: 1 !important;
+    visibility: visible !important;
     transform: translate(0) !important;
     pointer-events: auto !important;
   }

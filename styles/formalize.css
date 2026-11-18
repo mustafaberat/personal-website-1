@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* Safety net only: clip (not hidden) so a future overflow cannot
+     be panned, and position:sticky keeps working. */
+  overflow-x: clip;
 }
 
 a {
